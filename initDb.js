@@ -4,10 +4,10 @@ dotenv.config();
 
 const initDb = () => {
   mongoose
-    .connect('mongodb://localhost:27017/', {
-      dbName: 'TempFint',
-      user: '',
-      pass: '',
+    .connect('mongodb+srv://cluster0.noouy30.mongodb.net/myFirstDatabase', {
+      dbName: 'myFirstDatabase',
+      user: 'admin',
+      pass: 'Va2Ocve642c7VkKz',
       // userNewUrlParser: true,
       useUnifiedTopology: true,
       // useFindAndModify: false,
