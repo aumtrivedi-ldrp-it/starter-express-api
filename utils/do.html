@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeoForm</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            max-width: 793px;
+        }
+
+
+        .box {
+            border: 2px solid black;
+            width: 20%;
+        }
+
+        .header {
+            margin: 0.8rem 0;
+        }
+
+        .header_div {
+            margin: 0.8rem 0;
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+        }
+        
+        .top_header_div {
+            margin: 0.8rem 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: row;
+        }
+
+        .header_startdiv {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+        }
+
+        .header_subdiv {
+            justify-content: flex-end;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .header_sub {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .hr {
+            margin-top: 2px;
+        }
+
+        .landmark {
+            margin-left: 1rem;
+        }
+
+        .box_2 {
+            border: 2px solid black;
+            width: 12%;
+            margin-left: 0.2rem
+        }
+
+        .box_3 {
+            border: 2px solid black;
+            width: 10%;
+            margin-left: 0.2rem
+        }
+
+        .middle {
+            text-align: center;
+        }
+
+        img {
+            width: 70px;
+            height: 40px;
+        }
+
+        h4 {
+            font-size: 12px;
+            font-weight: 400;
+        }
+
+        div {
+            font-size: 12px;
+            font-weight: 400;
+        }
+
+        h3 {
+            font-size: 14px;
+            font-weight: 400;
+        }
+
+        h2 {
+            font-size: 18px;
+            font-weight: 400;
+        }
+
+        h1 {
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <div class="top_header_div">
+            <h4 >Dealer Name </h4>
+            <h4>Date</h4>
+            </div>
+            <div class="top_header_div">
+                <div class="box" style="height: 2rem; display: flex; align-items: center; justify-content: center;"> {{dealerName}} </div>
+                <div class="box" style="height: 2rem; display: flex; align-items: center; justify-content: center;">
+                    {{date}}
+                </div>
+            </div>
+        </div>
+        <hr color="black" class="hr" />
+        <div>
+            <h4 class="header">Customer Name {{customerName}} Father/Husband Name {{customerFatherOrHusbandName}}</h4>
+            <div class="header_sub">
+                <h4>Mobile Name: </h4>
+                <div class="box" style="height: 2rem; display: flex; align-items: center; justify-content: center;"> {{customerMobileNumber}} </div>
+                <h4 class="landmark">Landmark {{customerAddressLandMark}}</h4>
+            </div>
+        </div>
+        <div>
+            <h4 class="header">Ward No {{customerAddressWardNumber}} Village {{customerAddressVillageName}}
+            </h4>
+            <h4 class="header">Postal Code: {{customerAddressPostalCode}}
+                <br/> Tahsil: {{customerAddressDivision}} </h4>
+            <h4 class="header">District:{{customerAddressDistrict}} Distance from Showroom to Customer's House: {{differenceBetweenCustomerAddressAndShowroom}}</h4>
+            <h4 class="header">Main source of income of the Customer: {{customerOccupation}} Monthly Income: {{customerMonthlyIncome}}
+            </h4>
+            <h4 class="header">Occupation: {{customerOccupation}} Designation: {{customerDesignation}}</h4>
+            <h4 class="header">Address {{customerOfficeAddress}} How many acres of land does the customer cultivate {{customerFarmArea}}</h4>
+
+        </div>
+        <hr color="black" class="hr" />
+        <div>
+            <h4 class="header">Customer Name {{customerName}} Father/ Husband Name {{customerFatherOrHusbandName}}
+            </h4>
+            <div class="header_div">
+                <div class="header_startdiv">
+                    <h4>Mobile No</h4>
+                    <div class="box" style="height: 2rem; display: flex; align-items: center; justify-content: center;">{{customerMobileNumber}}</div>
+                </div>
+
+            </div>
+            <h4 class="header">Village {{customerAddressVillageName}} Postal Code {{customerAddressPostalCode}}</h4>
+            <h4 class="header">Tehsil {{customerAddressDivision}} District {{customerAddressDistrict}}</h4>
+        </div>
+        <hr color="black" class="hr" />
+        <div>
+            <h4 class="header">Vehicle {{vehicle}}</h4>
+            <div class="header_div">
+                <h5>EX SHOWROOM</h5>
+                <div class="box" style="height: 2rem; display: flex; align-items: center; justify-content: center;">{{vehicleExShowroomPrice}}</div>
+                <h5>RTO</h5>
+                <div class="box" style="height: 2rem; display: flex; align-items: center; justify-content: center;"> {{vehicleRtoPrice}}</div>
+                <h5>INS.</h5>
+                <div class="box" style="height: 2rem; display: flex; align-items: center; justify-content: center;"> {{vehicleInsurancePrice}}</div>
+
+            </div>
+            <div class="header_div">
+                <h5>OTHER</h5>
+                <div class="box" style="height: 2rem; display: flex; align-items: center; justify-content: center;">{{vehicleOtherPrices}}</div>
+                <h5>ON ROAD</h5>
+                <div class="box" style="height: 2rem; display: flex; align-items: center; justify-content: center;">{{vehicleOnRoadPrice}}</div>
+            </div>
+            <div class="header_div">
+                <h5>L.A.</h5>
+                <div class="box" style="height: 2rem; display: flex; align-items: center; justify-content: center;">{{vehicleLA}}</div>
+                <h5>Installment Amount</h5>
+                <div class="box" style="height: 2rem; display: flex; align-items: center; justify-content: center;">{{vehicleEmiAmount}}</div>
+
+            </div>
+            <div class="header_div">
+                <h5>Installment Number</h5>
+                <div class="box" style="height: 2rem; display: flex; align-items: center; justify-content: center;">{{vehicleTotalEmiCount}}</div>
+                <h5>L.T.V</h5>
+                <div class="box" style="height: 2rem; display: flex; align-items: center; justify-content: center;">{{vehicleLTV}}%</div>
+            </div>
+            <h4 class="header">Reference No. (1) Name {{reference1Name}} Father/ Husband's Name {{reference1FatherOrHusbandName}} Customer Relationship ....................</h4>
+            <h4 class="header">Village {{reference1Village}} Postal Code {{reference1PostalCode}} Tehsil {{reference1Division}} District {{reference1District}}
+            </h4>
+            <div class="header_div">
+                <div class="header_startdiv">
+                    <h4>Mobile No</h4>
+                    <div class="box" style="height: 2rem; display: flex; align-items: center; justify-content: center;">{{reference1MobileNumber}}</div>
+                </div>
+
+            </div>
+        </div>
+        <hr color="black" class="hr" />
+        <div>
+            <h4 class="header">Reference No. (2) Name {{reference2Name}} Father/ Husband's Name {{reference2FatherOrHusbandName}} Customer Relationship ....................</h4>
+            <h4 class="header">Village {{reference2Village}} Postal Code {{reference2PostalCode}} Tehsil {{reference2Division}} District {{reference2District}}
+            </h4>
+            <div class="header_div">
+                <div class="header_startdiv">
+                    <h4>Mobile No</h4>
+                    <div class="box" style="height: 2rem; display: flex; align-items: center; justify-content: center;">{{reference2MobileNumber}}</div>
+                </div>
+
+            </div>
+        </div>
+        <hr color="black" class="hr" />
+        <div>
+            <h3 class="middle">Office work</h3>
+            <h4 class="header">Agreed Receipt Date ............................................................ Computer Account No. ......................................</h4>
+            <h4 class="header">If the agreement is cancelled then the reason for cancellation ........................................... Date of Sending payment to dealer ...........................
+            </h4>
+            <h4 class="header">Name of Sales executive {{salesExecutiveName}} and sign
+                <img src={{salesExecutiveSignature}}></img>
+            </h4>
+            <h4 class="header">Branch Head Name {{branchHeadName}} and sign
+                <img src={{branchHeadSignature}}></img>
+            </h4>
+            <h4 class="header">D.O. Name of charge {{dealerName}} and signature
+                <img src={{dealerSignature}}></img>
+            </h4>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,3963 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>page 1</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            max-width: 793px;
+        }
+         .header_0 {
+            margin-top: 1rem;
+            text-align: center;
+        }
+
+        .container_0 {
+            margin: 2rem;
+        }
+
+        .middle_0 {
+            margin-top: 1rem;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .box_0 {
+            border: 2px solid black;
+            width: 12%;
+            margin: 0 0.1rem;
+        }
+
+        .box_mobile_0 {
+            border: 2px solid black;
+            width: 25%;
+        }
+
+        .middle_div_0 {
+            justify-content: space-around;
+            margin-top: 1rem;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .middle_h3_0 {
+            margin: 1rem 0;
+        }
+
+        .box_div_0 {
+            border: 2px solid black;
+            width: 50%;
+            padding: 4rem;
+        }
+
+        .table_0,
+        .th_0,
+        .td_0 {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        .td_0 {
+            padding: 0.3rem 2rem;
+        }
+
+        .th_0 {
+            padding: 2.5rem 2.5rem;
+        }
+
+        .middle_sub_0 {
+            margin-right: 1rem;
+        }
+
+        .h4_0 {
+            margin: 1rem 0;
+        }
+
+        .bottom_0 {
+            display: flex;
+            flex-direction: row;
+            margin: 1rem 0;
+        }
+
+        .container {
+            margin: 1rem;
+        }
+
+        .header {
+            margin-top: 1rem;
+            text-align: center;
+        }
+
+        .header_middle {
+            display: flex;
+            justify-content: center;
+        }
+
+        .header_middle_sub_left {
+            display: flex;
+
+            flex-direction: column;
+            padding: 0.5rem 0;
+        }
+
+        .header_middle_sub_right {
+            display: flex;
+            flex-direction: column;
+            padding: 0.5rem 5rem;
+        }
+
+        .header_middle_sub {
+            display: flex;
+            flex-direction: row;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 0.3rem 2rem;
+        }
+
+        th {
+            text-align: left;
+        }
+
+        .bottom {
+            text-align: center;
+        }
+
+        .form_div {
+            display: flex;
+            justify-content: center;
+        }
+
+        .container_2 {
+            margin: 1rem;
+        }
+
+        .header_2 {
+            margin-top: 1rem;
+            text-align: center;
+        }
+
+        .header_container_2 {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+
+        .gurantor_2 {
+            margin: 0 0.7rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .gurantor_2 h3 {
+            margin: 0.5rem 0;
+        }
+
+        .user_photo_2 {
+            border: 2px solid black;
+            width: 16%;
+            margin-top: 3rem;
+            margin-left: 1rem
+        }
+
+        .middle_2 {
+            margin: 0.5rem 1rem;
+            display: flex;
+        }
+
+        .middle_div_2 {
+            margin-left: 5rem;
+        }
+
+        .middle_div_2 h3,
+        .middle__div_2 h3 {
+            margin: 1rem 0;
+        }
+
+        .middle_h5_2 {
+            margin: 0.5rem 0;
+            text-align: center;
+        }
+
+        .header_3 {
+            margin-top: 1rem;
+            text-align: center;
+        }
+
+        .middle_bottom_3 {
+            margin: 2rem 0;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .hr {
+            margin: 0.2rem 15em;
+        }
+
+        .container_3 {
+            margin: 1rem;
+        }
+
+        .middle_3 {
+            margin: 0.5rem 4rem;
+        }
+
+        .li_3 {
+            margin: 0.8rem 0;
+        }
+
+        .bottom_header_3 {
+            text-align: end;
+        }
+
+        .container_4 {
+            margin: 2rem;
+        }
+
+        .header_4 {
+            margin-top: 1rem;
+            text-align: center;
+        }
+
+        .middle_4 {
+            margin: 0.5rem 1rem;
+        }
+
+        .para_4 {
+            margin-top: 1rem;
+        }
+
+        .user_photo_4 {
+            border: 2px solid black;
+            width: 15%;
+            margin-left: 1rem
+        }
+
+        .bottom_header_4 {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .container_5 {
+            margin: 2rem;
+        }
+
+        .user_photo_5 {
+            border: 2px solid black;
+            width: 25%;
+            margin-left: 1rem
+        }
+
+        .span_5 {
+            font-weight: bold;
+            color: black;
+        }
+
+        .bottom_header_5 {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .container_6 {
+            margin: 2rem;
+        }
+
+        .user_photo_6 {
+            border: 2px solid black;
+            width: 25%;
+            margin-left: 1rem
+        }
+
+        .span_6 {
+            font-weight: bold;
+            color: black;
+        }
+
+        .bottom_header_6 {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .container_7 {
+            margin: 2rem;
+        }
+
+        .user_photo_7 {
+            border: 2px solid black;
+            width: 25%;
+            margin-left: 1rem
+        }
+
+        .bottom_header_7 {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .span_7 {
+            font-weight: bold;
+            color: black;
+        }
+
+        .container_8 {
+            margin: 2rem;
+        }
+
+        .user_photo_8 {
+            border: 2px solid black;
+            width: 25%;
+            margin-left: 1rem
+        }
+
+        .bottom_header_8 {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .span_8 {
+            font-weight: bold;
+            color: black;
+        }
+
+        .container_9 {
+            border: 2px solid black;
+            margin: 1rem;
+            padding: 1rem;
+        }
+
+        .header_9 {
+            margin-top: 1rem;
+            text-align: center;
+        }
+
+        .to_9 {
+            margin: 1rem;
+
+        }
+
+        .para_9,
+        .bottom_header_9 {
+            margin: 2rem;
+        }
+
+        .user_photo_9 {
+            border: 2px solid black;
+            width: 25%;
+            margin-left: 1rem
+        }
+
+        .bottom_header_9 {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .to_letter_9 {
+            margin: 3rem;
+            text-align: center;
+        }
+
+        .container_10 {
+            border: 2px solid black;
+            margin: 1rem;
+        }
+
+        .h3_header_10 {
+            text-align: center;
+
+        }
+
+        .date_10 {
+            margin: 0 2rem;
+            display: flex;
+            justify-content: end;
+        }
+
+        .header_div_10 {
+            margin: 2rem 2rem;
+        }
+
+        .bottom_10 {
+            margin: 2rem;
+            display: flex;
+            justify-content: end;
+        }
+
+        .h3_11 {
+            text-align: center;
+            margin: 2rem 0;
+        }
+
+        .container_11 {
+            margin: 2rem;
+        }
+
+        .container_12 {
+            margin: 2rem;
+        }
+
+        .header_12 {
+            margin-top: 1rem;
+            text-align: center;
+        }
+
+        .table_12,
+        .th_12,
+        .td_12 {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        .th_12,
+        .td_12 {
+            padding: 0.3rem 2rem;
+        }
+
+        .th_12 {
+            text-align: left;
+        }
+
+        .user_photo_12 {
+            border: 2px solid black;
+            width: 20%;
+            margin-left: 1rem
+        }
+
+        .sign_12 {
+            margin: 0 2rem;
+            display: flex;
+            justify-content: end;
+        }
+
+        .h3_13 {
+            margin: 0 5rem;
+            text-align: end;
+        }
+
+        .container_13 {
+            margin: 2rem;
+        }
+
+        .date_13 {
+            margin: 0 2rem;
+            display: flex;
+            justify-content: end;
+        }
+
+        .bottom_header_13 {
+            text-align: end;
+        }
+
+        .user_photo_13 {
+            border: 2px solid black;
+            width: 20%;
+        }
+
+        .middle_13 {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .h4_13 {
+            margin: 1rem 5rem;
+        }
+
+        .h3_14 {
+            margin: 0 5rem;
+            text-align: end;
+        }
+
+        .container_14 {
+            margin: 2rem;
+        }
+
+        .bottom_header_14 {
+            text-align: end;
+        }
+
+        .user_photo_14 {
+            border: 2px solid black;
+            width: 15%;
+        }
+
+        .middle_14 {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .header_15 {
+            margin: 0.5rem 0;
+            text-align: center;
+        }
+
+        .user_photo_15 {
+            border: 2px solid black;
+            width: 55%;
+        }
+
+        .container_15 {
+            margin: 2rem;
+        }
+
+        .first_bottom_15 {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .first_bottom_sub_15 {
+            margin: 0 5rem;
+        }
+
+        .hr_line_15 {
+            background-color: black;
+            margin: 1rem 0;
+        }
+
+        .container_16 {
+            margin: 2rem;
+        }
+
+        .h3_16 {
+            text-align: center;
+        }
+
+        .h5_16 {
+            text-align: end;
+        }
+
+        .main_div_16 {
+            margin: 5rem 0;
+        }
+
+        .container_17 {
+            margin: 2rem;
+        }
+
+        .header_17 {
+            margin: 0.5rem 0;
+            text-align: center;
+        }
+
+        .container_18 {
+            margin: 2rem;
+        }
+
+        .header_18 {
+            margin: 0.5rem 0;
+            text-align: center;
+        }
+
+        .bottom_18 {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .bottom_18 p {
+            margin: 0 5rem;
+        }
+
+        .main_div_18 {
+            margin: 1rem 0;
+        }
+
+        .container_19 {
+            margin: 2rem;
+        }
+
+        .header_19 {
+            margin: 0.5rem 0;
+            text-align: center;
+        }
+
+        .container_20 {
+            margin: 2rem;
+        }
+
+        .header_20 {
+            margin: 0.5rem 0;
+            text-align: center;
+        }
+
+        .bottom_20 {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .bottom_20 p {
+            margin: 0 5rem;
+        }
+
+        .bottom_right_20 {
+            text-align: right;
+        }
+
+        .main_div_20 {
+            margin: 1rem 0;
+        }
+
+        .container_21 {
+            margin: 2rem;
+        }
+
+        .header_21 {
+            margin: 0.5rem 0;
+            text-align: center;
+        }
+
+        .bottom_right_21 {
+            text-align: right;
+        }
+
+        .container_22 {
+            margin: 2rem;
+        }
+
+        .header_22 {
+            margin: 0.5rem 0;
+            text-align: center;
+        }
+
+        .bottom_right_22 {
+            text-align: right;
+        }
+
+        .container_23 {
+            margin: 2rem;
+        }
+
+        .header_23 {
+            margin: 0.5rem 0;
+            text-align: center;
+        }
+
+        .bottom_right_23 {
+            text-align: right;
+        }
+
+        .container_24 {
+            margin: 2rem;
+        }
+
+        .header_24 {
+            margin: 0.5rem 0;
+            text-align: center;
+        }
+
+        .bottom_right_24 {
+            text-align: right;
+        }
+
+        .container_25 {
+            margin: 2rem;
+        }
+
+        .header_25 {
+            margin: 0.5rem 0;
+            text-align: center;
+        }
+
+        .bottom_right_25 {
+            text-align: right;
+        }
+
+        .container_26 {
+            margin: 2rem;
+        }
+
+        .header_26 {
+            margin: 0.5rem 0;
+            text-align: center;
+        }
+
+        .bottom_right_26 {
+            text-align: right;
+        }
+
+        .container_27 {
+            margin: 2rem;
+        }
+
+        .header_27 {
+            margin: 0.5rem 0;
+            text-align: center;
+        }
+
+        .bottom_27 {
+            margin: 1rem 0;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .bottom_right_27 {
+            text-align: right;
+        }
+
+        .bottom_27 p {
+            margin: 0 2rem;
+        }
+
+        .user_photo_27 {
+            border: 2px solid black;
+            width: 20%;
+        }
+
+        .container_28 {
+            margin: 2rem;
+        }
+
+        .header_28 {
+            margin: 0.5rem 0;
+            text-align: center;
+        }
+
+        .bottom_div_28 {
+            margin-top: 5rem;
+        }
+
+        .bottom_right_28 {
+            text-align: right;
+        }
+
+        .container_29 {
+            margin: 2rem;
+        }
+
+        .header_29 {
+            margin: 0.5rem 0;
+            text-align: center;
+        }
+
+        .bottom_29 {
+            margin: 1rem 0;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .bottom_right_29 {
+            text-align: right;
+        }
+
+        .bottom_29 p {
+            margin: 0 5rem;
+        }
+
+        .user_photo_29 {
+            border: 2px solid black;
+            width: 20%;
+        }
+
+        .container_30 {
+            margin: 2rem;
+        }
+
+        .header_30 {
+            margin: 1rem 0;
+            text-align: center;
+        }
+
+        .bottom_right_30 {
+            text-align: right;
+        }
+
+        .bottom_30 {
+            margin-top: 5rem;
+        }
+
+        .container_31 {
+            margin: 2rem;
+        }
+
+        .header_31 {
+            margin: 1rem 0;
+            text-align: center;
+        }
+
+        .bottom_right_31 {
+            text-align: right;
+        }
+
+        .user_photo_31 {
+            margin: 1rem 0;
+            border: 2px solid black;
+            width: 20%;
+        }
+
+        .container_32 {
+            margin: 2rem;
+        }
+
+        .header_32 {
+            margin: 1rem 0;
+            text-align: center;
+        }
+
+        .container_33 {
+            margin: 2rem;
+        }
+
+        .header_33 {
+            margin: 1rem 0;
+            text-align: center;
+        }
+
+        .bottom_33 {
+            margin-top: 5rem;
+        }
+
+        .container_34 {
+            margin: 2rem;
+        }
+
+        .header_34 {
+            margin: 1rem 0;
+            text-align: center;
+        }
+
+        .bottom_34 {
+            margin-top: 5rem;
+        }
+
+        .bottom_right_34 {
+            text-align: right;
+        }
+
+        .user_photo_34 {
+            border: 2px solid black;
+            width: 20%;
+        }
+
+        .container_35 {
+
+            margin: 2rem;
+        }
+
+        .header_35 {
+            margin: 1rem 0;
+            text-align: center;
+        }
+
+        .p_35 {
+            margin-top: 1rem;
+        }
+
+        .bottom_right_35 {
+            text-align: right;
+        }
+
+        .user_photo_35 {
+            border: 2px solid black;
+            width: 20%;
+            margin-top: 1rem;
+        }
+
+        .container_36 {
+
+            margin: 2rem;
+        }
+
+        .bottom_36 {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .user_photo_36 {
+            border: 2px solid black;
+            width: 20%;
+            margin-top: 1rem;
+        }
+
+        .bottom_36 p {
+            margin: 0 5rem;
+
+        }
+
+        .container_37 {
+            margin: 2rem;
+        }
+
+        .header_37 {
+            margin: 0.2rem 0;
+            text-align: center;
+        }
+
+        .container_38 {
+            margin: 2rem;
+        }
+
+        .header_38 {
+            margin: 0.2rem 0;
+            text-align: center;
+        }
+
+        .container_39 {
+            margin: 2rem;
+        }
+
+        .header_39 {
+            margin: 1rem 0;
+            text-align: center;
+        }
+
+        .bottom_39 {
+            margin-top: 2rem;
+        }
+
+        .bottom_right_39 {
+            text-align: right;
+        }
+
+        .container_40 {
+            margin: 2rem;
+        }
+
+        .header_40 {
+            margin: 1rem 0;
+            text-align: center;
+        }
+
+        .span_40 {
+            font-weight: 500;
+        }
+
+        .middle_40 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+
+        .middle_40 {
+            align-items: flex-end;
+            justify-content: end;
+        }
+
+        .bottom_40 {
+            margin-top: 2rem;
+        }
+
+        .bottom_right_40 {
+            text-align: right;
+        }
+
+        .container_41 {
+            margin: 2rem;
+        }
+
+        .header_41 {
+            margin: 1rem 0;
+            text-align: center;
+        }
+
+        .bottom_41 {
+            margin: 1.5rem 0;
+        }
+
+        .middle_41 {
+            display: flex;
+            flex-direction: row;
+            margin: 1rem 0;
+        }
+
+        .bottom_right_41 {
+            margin-left: 13rem;
+        }
+
+        .bottom_para_41 {
+            text-align: right;
+        }
+
+        .bottom_div_41 p,
+        .bottom_div_41 {
+            margin-top: 1rem;
+        }
+            .container_42 {
+            margin: 2rem;
+        }
+
+        .h3_42 {
+            margin: 1rem 0;
+        }
+
+        .user_photo_42 {
+            border: 2px solid black;
+            width: 30%;
+            margin-left: 1rem
+        }
+
+        .middle_42 {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .box_42 {
+            border: 2px solid black;
+            width: 16%;
+            margin: 0 0.5rem;
+        }
+
+        .header_42 {
+            margin: 1rem 0;
+            text-align: center;
+        }
+
+        .box__div_42 {
+            border: 2px solid black;
+            width: 16%;
+            margin: 0 0.2rem;
+        }
+
+        img{
+            width:30px;
+            height:30px;
+        }
+
+        h4{
+            font-size: 12px;
+        }
+        
+        h3{
+            font-size: 14px;
+        }
+
+        h2{
+            font-size: 18px;
+        }
+
+        h1{
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container_0">
+        <div class="header_0">
+            <h1>MANGLAMBALAJEE FINANCE LIMITED</h1>
+            <h5>CIN: U65929CT2019PLC009596</h5>
+            <h3>REGD OFFICE: MANGLAM CHANBERS, BLOCK-C,PLOTE-6,DAKSHIN GANGOTRI SUPELA BHILAI</h3>
+            <h5>DURG; CHHATTISGARH 490023 INDIA</h5>
+        </div>
+        <div class="middle_0">
+            <h4>D.O.No</h4>
+            <div class="box_0" style="height: 2.5rem"></div>
+            <h4>Mt.No</h4>
+            <div class="box_0" style="height: 2.5rem; display: flex; align-items: center; justify-content: center;">{{mf_no}}</div>
+            <h4>Show Room. Account No</h4>
+            <div class="box_0" style="height: 2.5rem; display: flex; align-items: center; justify-content: center;">{{showroom_acc_no}}</div>
+            <h4>Key No.</h4>
+            <div class="box_0" style="height: 2.5rem; display: flex; align-items: center; justify-content: center;">{{key_no}}</div>
+        </div>
+        <div class="middle_div_0">
+            <div>
+                <div>
+                    <table class="table_0">
+                        <tr class="tr_0">
+                            <th class="th_0">Branch.<br />{{branch_name}}</th>
+                            <th class="th_0">Name of Party<br />{{party_name}}</th>
+                            <th class="th_0">Date<br />{{date}}</th>
+                        </tr>
+                    </table>
+                </div>
+                <br />
+                <div class="middle_sub_0">
+                    <table class="table_0">
+                        <tr class="tr_0">
+                            <th class="th_0">Vehicle Comapany and Model No. </th>
+                            <th class="th_0">{{vehicle_company_name}}{{model_no}}</th>
+                            <th class="th_0">Engine Number {{engine_no}}</th>
+                        </tr>
+                        <tr class="tr_0">
+                            <th class="th_0">color of vehicle</th>
+                            <th class="th_0">{{vehicle_color}}</th>
+                            <th class="th_0">Chasis number {{chassis_no}}</th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div>
+                <div class="box_div_0" style="height: 7rem">
+                    <img src={{bufferCustomerImage}}></img>
+                </div>
+                <h3 class="middle_h3_0">{{bufferCustomerSignature}}</h3>
+                <div class="box_div_0" style="height: 7rem">
+                    <img src={{bufferGuarnteerImage}}></img>
+                </div>
+                <h3 class="middle_h3_0">{{bufferGuarnteerSignature}}</h3>
+            </div>
+        </div>
+        <h4 class="h4_0">It is mandatory to write the name, village and mobile number of the buyer and acquaintances
+            correctly.</h4>
+        <div>
+            <h3>Customer Name {{customer_name}} Father's / Husband's name
+                {{father_or_husband_name}}</h3>
+            <div class="bottom_0">
+                <h3>Mobile No</h3>
+                <div class="box_mobile_0" style="height: 2.5rem; display: flex; align-items: center; justify-content: center;">{{mobile_no}}</div>
+                <h3>Landmark {{landmark}}</h3>
+                <h3>ward No {{ward_no}}</h3>
+            </div>
+            <h3 class="h4_0">Village {{village_name}} Postal Code
+                {{postal_code}} Tehsil {{division}}</h3>
+            <h3 class="h4_0">District {{district_name}}</h3>
+            <h3 class="h4_0">Occupation {{occupation}} Monthly income
+                {{monthly_income}}</h3>
+            <h3 class="h4_0">How many acres does the customer cultivate
+               {{farm_land_area}} </h3>
+        </div>
+        <hr color="black" />
+        <div>
+            <h3 class="h4_0">Name of gurantor {{guarnteer_name}} Father's/Husband's name
+                {{guarnteer_father_or_husband_name}}</h3>
+            <div class="bottom_0">
+                <h3>Mobile No</h3>
+                <div class="box_mobile_0" style="height: 2.5rem; display: flex; align-items: center; justify-content: center;">{{guarnteer_residence_mobile}}</div>
+                <h3>Landmark {{guarnteer_landmark}}</h3>
+                <h3>ward No {{guarnteer_ward_no}}</h3>
+            </div>
+            <h3 class="h4_0">Village {{guarnteer_village}} Post
+                {{guarnteer_postal_code}} Tehsil {{guarnteer_division}}</h3>
+            <h3 class="h4_0">District
+                {{guarnteer_district_name}}
+            </h3>
+            <h3 class="h4_0">Customer Relationship
+                ............................................................................................... </h3>
+        </div>
+    </div>
+    <div class="container">
+        <div class="header">
+            <h1>MANGLAMBALAJEE FINANCE LIMITED</h1>
+            <h5>CIN: U65929CT2019PLC009596</h5>
+            <h3>REGD OFFICE: MANGLAM CHANBERS, BLOCK-C,PLOTE-6,DAKSHIN GANGOTRI SUPELA BHILAI</h3>
+            <h5>DURG; CHHATTISGARH 490023 INDIA</h5>
+            <h3 style="text-decoration: underline;">SECOND SCHEDULE</h3>
+        </div>
+        <div class="header_middle">
+            <h4>Please give us your bank details</h4>
+            <div class="header_middle_sub">
+                <div class="header_middle_sub_left">
+                    <h3>1. Mode of Repayment PDC </h3>
+                    <h3> 3. Bank Account No.(s) {{bank_acc_no}}</h3>
+                </div>
+                <div class="header_middle_sub_right">
+                    <h3>2. Name / Address of Bank {{bank_address}} </h3>
+                    <h3>4. Account Type, Current A/c /Saving A/c {{bank_acc_type}}</h3>
+                </div>
+            </div>
+        </div>
+        <div class="form_div">
+            <table>
+                <tr>
+                    <th>Inst.No.</th>
+                    <th>Cheque No.</th>
+                    <th>Date</th>
+                    <th>Name of the Bank and Branch</th>
+                    <th>Amount Rs.</th>
+                </tr>
+                {{#each chequeArray as | cheque |}}
+                <tr>
+                  <td>{{@index}}</td>
+                  <td>{{chequeNumber}}</td>
+                  <td>{{chequeDate}}</td>
+                  <td>{{bank_name}} {{bank_branch}}</td>
+                  <td>{{emi}}</td>
+                </tr>
+                {{/each}}
+            </table>
+        </div>
+        <div class="bottom">
+            <p>As I/We confirm that above {{totalEmi}} period instalments as repayment schedule and towards payment of same.
+            </p>
+            <p>I/we have tendered {{totalEmi}} no of post dated cheques of above mentioned bank.short cheque if any will</p>
+            <p>be delivered within {{tenure_in_months}} week / months. Incase of default of delivery, company can penalise me/ us by
+            </p>
+            <p>charging extra charges.I/We alse undertake to ensure that all the cheques to be presented as per schedule
+                date</p>
+            <p>will be honoured without fail and incase of any default I / We would be personally and severally
+                responsible and </p>
+            <p>liable for prosecution under the provision of negotiable instrument act 138 of court of law.</p>
+        </div>
+    </div>
+    <div class="container_2">
+        <div class="header_container_2">
+            <div class="header_2">
+                <h1>MANGLAMBALAJEE FINANCE LIMITED</h1>
+                <h5>CIN: U65929CT2019PLC009596</h5>
+                <h3>REGD OFFICE: MANGLAM CHANBERS, BLOCK-C,PLOTE-6,DAKSHIN GANGOTRI SUPELA BHILAI</h3>
+                <h5>DURG; CHHATTISGARH 490023 INDIA</h5>
+                <h3 style="text-decoration: underline;">APPLICATION FOR HYPOTHECATION FINANCE</h3>
+            </div>
+         
+        </div>
+        <div class="user_photo_2" style="height: 9rem">
+            <img src={{bufferCustomerImage}}></img>
+        </div>
+        <div class="middle_2">
+            <div class="middle__div_2">
+                <h3>Proposal No............</h3>
+                <h3>Sales Executive:............</h3>
+            </div>
+            
+        </div>
+        <h3 class="middle_h5_2">Application for availing the loan faculity for purchasing the vehicle(Vehicle Loan)</h3>
+        <h3 class="middle_2"> Full Name of the Applicant: {{customer_name}}</h3>
+        <div class="middle_2">
+            <h3>Date of Birth..............................</h3>
+            <h3>sex:Male/Female.............. </h3>
+            <h3>Father's/ Husband's Name {{father_or_husband_name}}</h3>
+        </div>
+        <h3 class="middle_2">Residence Address: {{ward_no}} {{village_name}}-{{postal_code}}</h3>
+        <div class="middle_2">
+            <h3>tel.No.(resi.) {{mobile_no}}</h3>
+            <h3>Office :{{mobile_no}}</h3>
+        </div>
+        <div class="middle_2">
+            <h3>Mobile : {{mobile_no}} </h3>
+            <h3>Family Mobile Number :{{mobile_no}}.</h3>
+        </div>
+        <h3 class="middle_2">Name of the Employee / Business
+            Establishment: {{occupation}}</h3>
+        <h3 class="middle_2">if Business specity :Partnership / proprietorship/Ltd.company</h3>
+        <h3 class="middle_2">Address:..............................................................................</h3>
+
+        <div class="middle_2">
+            <h3>Designation :.................................</h3>
+            <h3>Department:.......................................</h3>
+            <h3>Office:...........................</h3>
+        </div>
+        <hr color="black" class="hr" />
+        <h3 class="middle_h5_2"> Co-Borrower</h3>
+        <h3 class="middle_2">Full Name of the Co-Borrower: {{co_borrower_name}}
+        </h3>
+        <h3 class="middle_2">Father's/ Husband's Name..................</h3>
+        <h3 class="middle_2">Residence Address:.....................................</h3>
+        <div class="middle_2">
+            <h3>Ph.No.(Resi).......................................</h3>
+            <h3>(Mob) :....................</h3>
+            <h3>Family Mob No:....................</h3>
+        </div>
+        <h3 class="middle_2">Name of the Employee / Business
+            Establishment:....................................................</h3>
+        <h3 class="middle_2">if Business specity :Partnership / proprietorship/Ltd.company</h3>
+        <h3 class="middle_2">Address:..............................................................................</h3>
+
+        <div class="middle_2">
+            <h3>Designation :.................................</h3>
+            <h3>Department:.......................................</h3>
+            <h3>Office:...........................</h3>
+        </div>
+        <hr color="black" class="hr" />
+        <h3 class="middle_h5_2">Guarantor Details</h3>
+        <hr color="black" />
+        <div class="gurantor_2">
+            <div>
+                <h3>Guarantor 1</h3>
+                <h3>Name: {{guarnteer_name}}</h3>
+                <h3>Address: {{guarnteer_ward_no}}, {{guarnteer_landmark}}</h3>
+                <h3>City: {{guarnteer_village}} Pin Code {{guarnteer_postal_code}}</h3>
+                <h3>Ph.No.:(R){{guarnteer_residence_mobile}} (O){{guarnteer_office_mobile}}</h3>
+            </div>
+            <div>
+                <h3>Guarantor 2</h3>
+                <h3>Name: {{guarnteer_2_name}}</h3>
+                <h3>Address: {{guarnteer_2_ward_no}}, {{guarnteer_2_landmark}}</h3>
+                <h3>City: {{guarnteer_2_village}} Pin Code {{guarnteer_2_postal_code}}</h3>
+                <h3>Ph.No.:(R){{guarnteer_2_residence_mobile}} (O){{guarnteer_2_office_mobile}}</h3>
+        </div>
+        </div>
+        <hr color="black" />
+        <div class="gurantor_2">
+            <div>
+                <h3>Reference 1</h3>
+                <h3>Name: {{reference_1_name}}</h3>
+                <h3>Address: {{reference_1_ward_no}}, {{reference_1_landmark}}</h3>
+                <h3>City: {{reference_1_city}} Pin Code{{reference_1_postal_code}}</h3>
+                <h3>Ph.No.:(R){{reference_1_residence_mobile}} (O){{reference_1_office_mobile}}</h3>
+            </div>
+            <div>
+                <h3>Reference 2</h3>
+                <h3>Name: {{reference_2_name}}</h3>
+                <h3>Address: {{reference_2_ward_no}}, {{reference_2_landmark}}</h3>
+                <h3>City: {{reference_2_city}} Pin Code{{reference_2_postal_code}}</h3>
+                <h3>Ph.No.:(R){{reference_2_residence_mobile}} (O){{reference_2_office_mobile}}</h3>
+            </div>
+        </div>
+        <div class="gurantor_2">
+            <img src={{bufferCustomerSignature}}></img>
+            <h3>Signature of the Borrower's</h3>
+            <img src={{bufferCoBorroweSignature}}></img>
+            <h3>Signature of the Co-Borrower's</h3>
+            <img src={{bufferGuarnteerSignature}}></img>
+            <h3>Signature of the Guarantor</h3>
+        </div>
+       
+    </div>
+    <div class="container_3">
+        <div class="header_3">
+            <h1>MANGLAMBALAJEE FINANCE LIMITED</h1>
+            <h5>CIN: U65929CT2019PLC009596</h5>
+            <h3>REGD OFFICE: MANGLAM CHANBERS, BLOCK-C,PLOTE-6,DAKSHIN GANGOTRI SUPELA BHILAI</h3>
+            <h3>DURG; CHHATTISGARH 490023 INDIA</h3>
+            <hr color="black" class="hr" />
+            <hr color="black" class="hr" />
+            <h3 style="text-decoration: underline;">Terms and conditions</h3>
+        </div>
+        <div class="middle_3">
+            <ol>
+                <li class="li_3">No liability of the financier in case of any defect in the vehicle purchased by you
+                </li>
+
+                <li class="li_3"> 500/- per check will have to be paid separately on return of check. If the installment
+                    is not paid on the due date, an
+                    additional fee of 350/- will be payable. Additional interest at the rate of 5% per month will be
+                    payable if the
+                    installment payment exceeds 1 month from the due date.
+
+                </li>
+
+                <li class="li_3">If you do not pay the installment on time, you will have to pay a collection charge of
+                    Rs.200/- for each visit.
+                </li>
+                <li class="li_3">The check will be deposited in the bank on the due date), if the borrower does not want
+                    it, then he will have to pay the
+                    installment within seven days from the due date.</li>
+
+                <li class="li_3">It will not be the responsibility of the financier to take the vehicle's registration
+                    book from the dealer himself.</li>
+
+                <li class="li_3">Insurance renewal will be the responsibility of the borrower.</li>
+                <li class="li_3">Even if the car is stolen, the company's installments will have to be paid on time. On
+                    receipt of the claim from the
+                    insurance company, the company's dues will be paid first.</li>
+                <li class="li_3"> Give check fill up by yourself, do not give blank check in anyone's hand.</li>
+
+                <li class="li_3">Do not give money without Official Receipt Cash and without authorised person, and also
+                    confirm from our office. </li>
+
+
+                <li class="li_3">N.O.C. You have to come to the office within 90 days from the last installment. 500/-
+                    for every 3 months thereafter.
+                    Will have to pay charge.
+                </li>
+
+                <li class="li_3">Vehicle Surrender will have to be done for not paying more than 2 installments.</li>
+
+                <li class="li_3">According to the agreement, even if you clear your equity ahead of time, you will have
+                    to pay interest for the next
+                    three months.</li>
+
+                <li class="li_3">If you do not pay the full check at the time of car finance, then you will be charged
+                    an additional surcharge of 2% at
+                    the same time. If not given at that time then must be given at the time of taking the N.O.C.</li>
+
+
+                <li class="li_3">The original smart card will remain with the finance company as long as the installment
+                    continues. But have read all the
+                    written instructions thoroughly. That's when I signed this file. Borrower Signature
+                </li>
+            </ol>
+            <div class="middle_bottom_3">
+               <div>
+                <img src={{bufferCustomerSignature}}></img>
+                <h3>Borrower Signature</h3>
+               </div>
+              <div>
+                <img src={{bufferCoBorroweSignature}}></img>
+                <h3>Co-Borrower Signature</h3>
+              </div>
+            </div>
+            <p>I (Guarantor) take the responsibility to the fullest of my consciousness that in case I am not able to
+                pay the
+                installment / outstanding loan amount, then I take the responsibility of paying the outstanding loan
+                amount.</p>
+            <h3>Place:- ............</h3>
+            <h3>Date : {{date}}</h3>
+            <div style="display:flex; justify-self: center; align-items: flex-end; flex-direction: column;">
+                <img src={{bufferGuarnteerSignature}}></img>
+                <h3 class="bottom_header_3">Guarantor's Signature</h3>
+            </div>
+        </div>
+    </div>
+    <div class="container_4">
+        <div class="header_4">
+            <h1>MANGLAMBALAJEE FINANCE LIMITED</h1>
+            <h5>CIN: U65929CT2019PLC009596</h5>
+            <h3>REGD OFFICE: MANGLAM CHANBERS, BLOCK-C,PLOTE-6,DAKSHIN GANGOTRI SUPELA BHILAI</h3>
+            <h3>DURG; CHHATTISGARH 490023 INDIA</h3>
+            <h3 style="text-decoration: underline;">TRIPARTITE AGREEMENT</h3>
+        </div>
+        <div class="middle_4">
+            <p class="para_4">This LOAN CUM HYPOTHECATION CUM REVENUE SHARING PARTY CUM GUARANTEE
+                AGREEMENT is entered into on the at {{date}}
+                a firm
+                registered under the Companies Act.2013, having its registered office at Bhilai Distt. Durg
+                ,CHHATTISGARH-490023 through
+                its authorized signatory shri Ram Lal Pradhan S/o Y. Pradhan (hereinafter referred to as the ‘firm’)
+                the party of the
+                one part.(which expression shall unless repugnant to the context and meaning there of be deemed to
+                mean and include its
+                legal heirs,executors,representatives,successors and assigns as the case may be)of the One part:
+            </p>
+            <h3 class="header_4">And</h3>
+            <hr color="black" class="hr" />
+            <p class="para_4">(A sole proprietor / partnership firm / company) hereinafter referred to as “other
+                Revenue Sharing
+                Party” which
+                expression shall unless repugnant to the context and meaning thereof mean and include its legal
+                heirs, executors, repre-
+                sentatives, successors and assigns as the case may be.</p>
+            <h3 class="header_4">And</h3>
+            <hr color="black" class="hr" />
+            <p class="para_4">Shri/ Smt/Miss {{customer_name}}
+                S/o./D/o./w/o.Shri/Smt.{{father_or_husband_name}}
+                residing at {{landmark}} {{ward_no}} {{village_name}} {{division}} {{district_name}} {{postal_code}} (A sole
+                proprietor / partnership firm / company) hereinafter referred to as “Borrower/heirs ” which
+                expression shall unless
+                repug- nant to the context and meaning thereof mean and include its legal heirs, executors,
+                representatives, successors
+                and assigns as the case may be.
+            </p>
+            <h3 class="header_4">And</h3>
+            <hr color="black" class="hr" />
+            <p class="para_4">
+                Shri/Smt/Miss {{guarnteer_name}} S/o./D/o./w/o.Shri/Smt. {guarnteer_father_or_husband_name}
+                residing at{{guarnteer_ward_no}}, {{guarnteer_landmark}}
+            {{guarnteer_village}} {{guarnteer_postal_code}} (A sole
+                proprietor / partnership firm / company) hereinafter referred to as “Guarantor” which expression
+                shall unless repug-
+                nant to the context and meaning thereof mean and include its legl heirs, executors, representatives,
+                successors and
+                assigns as the case may be.
+            </p>
+            <h3 class="header_4">And</h3>
+            <hr color="black" class="hr" />
+            <p class="para_4">whereas the “Borrower has approached “MANGLAM BALAJEE FINANCE LIMITED”through the “other
+                revenue
+                shar- ing party” for
+                financial assistance to the extent of Rs. {{loan_amount}}/- (Rupees {{loan_amount_in_words}} only)
+                only for the purchase of a
+                vehicle(hereinafter
+                referred to as the “vehicle:) and upon the recommendation of the “other revenue sharing party”,
+                “MANGLAM BALAJEE FINANCE
+                LIMITED” has agreed to provide financial assistance to the “borrower / hirer”, subject to the terms
+                and conditions
+                hereinafter referred:
+            </p>
+            <div class="bottom_header_4">
+                <h3>Signature of Borrower</h3>
+                <div class="user_photo_4" style="height: 5rem"></div>
+            </div>
+        </div>
+    </div>
+    <div class="container_5">
+        <h3>NOWTHISAGREEMENT ANDITISHEREBYMUTUALIYAGREED,DECLARED, CONFIRMEDANDRECORDEDBY AND BETWEENTHE PARTIES
+            HERETOAS FOLLOWS:</h3>
+
+        <p>I. <span class="span_5">“MANGLAM BALAJEE FINANCE LIMITED”</span> agrees to extend financial facility to the
+            “borrower /
+            hirer” through
+            “other
+            revenue sharing party” and “borrower / hirer” agrees to avail the said financial facility in respect of the
+            vehicle more
+            particularly described in the schedule attached there to.
+        </p>
+        <p>
+            <span class="span_5">II. TERMS AND CONDITIONS</span>
+        <ol>
+            <li>The loan will be utilised for the purpose for which it is sanctioned and granted as per loan Agree-
+                ment.</li>
+            <li>The loan amount will be repaid by the borrower (S) / hirer by way of EMIs and at the rate of
+                interest,
+                arrived in
+                accordance with the terms and coditions of this Agreement, The borrower (s) / hirer shall also pay such
+                processing fees,
+                other costs, charges and expenses as detailed hereinafter.</li>
+            <li>The “MANGLAM BALAJEE FINANCE LIMITED” (Firm) shall be at liberty not to grant additional limits
+                at its
+                sole
+                discretion after review of the account and facilities.</li>
+            <li>The borrower (s) / hirer shall not be entitled to cancel the loan granted under this agreement
+                or refuse
+                to
+                accept
+                the disbursements or make withdrawals under the present Agreement.Any cancellation of the loan granted
+                under
+                the
+                present
+                Agreement shall be may be required by the company from time to time.</li>
+            <li>The customer acknowledges the right of the company to charge additional interest, costs, charges, as
+                deemed
+                appropriate from time to time or recall the loan along with interest, costs ,charges, etc., in the event
+                of
+                the
+                customer
+                failing to submit all / any post Disbursal Documents.</li>
+            <li> The repayment shall commence as per the repayment scheme irrespective of the delivery of the
+                vehicle.Strict
+                compliance with the repayment scheme is and essential condition for the grant of loan.</li>
+        </ol>
+
+        </p>
+        <p>
+            <span class="span_5">III. FINANCING ARRANGEMENT</span>
+        <ol>
+            <li>The present agreement being entered into between “MANGLAM BALAJEE FINANCE LIMITED” “other revenue
+                sharing
+                party” &
+                “borrower / hirer” is purely a finance arrangement and the borrower / hirer accepts and acknowledges
+                that the
+                entire
+                risk, non performance, non-delivery, breach of supply of inferior or damaged vehicle by the dealer
+                (revenue
+                sharing
+                party) and the vehicle details, specifications and description are within the knowledge of the borrower
+                / hirer
+                and
+                shall be exclusively borne by the borrower / hirer for any liability, claim, loss or expenxe of any kind
+                whatsoever
+                caused either directly or indirectly to the vehicle nor shall warrant or qualify, either express or
+                implied, for
+                the
+                quality, condition or fitness of the vehicle.
+            </li>
+        </ol>
+        </p>
+        <p>
+            <span class="span_5">IV. VEHICLE UNDER EXCLUSIVE HYPOTHECATION TO COMPANY</span>
+        <ol>
+            <li>The borrower / hirer by way of providing security to the company against the loan amount, under- takes
+                to
+                hypothecate
+                the vehicle for which / or against which loan facility is being taken. The details of used vehicle being
+                purchased or
+                already owned vehicle against which loan is being taken are given in annexure_ to this agreement and the
+                borrower
+                confirms that the vehicle has no prior lien.</li>
+            <li>The borrower / hirer and the guarantor state that they shall be estopped in law from taking the plea
+                that
+                on
+                the date
+                this loan agreement was signed the exact vehicle details were not available.</li>
+            <li>The borrower/ hirer undertakes to get the endorsement of hypothecation done in the registration
+                certificate/
+                Book
+                from the concerned Road Transport office.</li>
+            <li>The hypothecation of the vehicle shall be first ad exclusive charge against the company dues.</li>
+            <li>The hypothecation sall be deemed to take place immediately on signing of this agreement or delivery of
+                the
+                vehicle,
+                as the case may be whichever is earlier.</li>
+        </ol>
+        </p>
+        <div class="bottom_header_5">
+            <img src={{bufferCustomerSignature}}></img>
+            <h3>Signature of Borrower</h3>
+        </div>
+    </div>
+    <div class="container_6">
+        <p> <span class="span_6">V. EVENT OF DEFAULT (As per section 18 of Hire Purchase Act, 1972)</span>
+        <ol>
+            <li>If the borrower / hirer does not keep fully to the terms of the agreement into which he has entered or
+                commits any
+                breach of it.</li>
+            <li>If a receiving order in bankrupty is made against the borrower/hirer.</li>
+            <li>If the borrower / hirer executes an assignment of the benefits of his creditors.</li>
+            <li>If the borrower / hirer arranges or compounds with the majority of his creditors.</li>
+            <li>If the borrower / hirer executes a bill of sale on his goods.</li>
+            <li>If distress is levied or threatened to be levied upon any of the goods in the possession of the borrower
+                / hirer for rent, rate, and taxes.</li>
+            <li>If the goods are seized or taken in execution.</li>
+            <li>If any judgement is allowed to remain against him unsatisfied.</li>
+            <li>Demand the Borrower to return the vehicle to the company or other revenue sharing party in the same
+                condition as
+                delivered, reasonable wear and tear accepted and in the event of failure of borrower to comply within 7
+                days
+                from date
+                of demand to enter the premises and take the possession back from the borrower.</li>
+            <li>Borrower hereby agrees and acknowledges that company has authorized the other revenue sharing party to
+                undertake all
+                collection, repossession and other related activities on its behalf and to that extent the Borrower
+                agrees
+                to make
+                payment of EMI’s late payment charge, penalty for dishonour of cheques to ORSP as may be required.</li>
+        </ol>
+        </p>
+        <p>
+            <span class="span_6">VI. GUARANTEE</span>
+        <ol>
+            <li>The guarantor hereby unconditionally and irrevocably guarantees the due payment and discharge by the
+                borrower of his
+                liabilites hereunder to the firm after demand whether incurred before or after the date hereof to the
+                full
+                extent of the
+                loan extended by the firm together with interest and all charges thereon. The guarantee is a continuing
+                guaratee until
+                the liabilities are fully met.The liability of the guarantor is joint and several along with the
+                liability
+                of the
+                borrower.</li>
+            <li>Gurarantor hereby agrees that his liability is co-extensive with that of the borrower and as between the
+                firm and the
+                guarantor, is to be considered as principal debtor to the firm for all dues.</li>
+            <li>.The guarantor and his heirs/executors expressly agree that they shall not be exonerated (i) by any
+                variance made
+                without their consent in the terms of this contract or transaction between the firm and the
+                borrower,(ii)by
+                any contract
+                made between the firm and the borrower by which the borrower is released from his liability under this
+                agreement,(iii)by
+                any act or omission of the firm the legal consequences of which may be discharged for the guarantor or
+                (iv)
+                by the firm
+                making a compromise with, or promising to give time to or not to sue the borrower or (v) by the company
+                losing the
+                security.The Guarantor hereby waives all surety rights that may otherwise be available to him.</li>
+            <li>The guarantor’s obligation to pay arises after dispatch of written notice by the firm by reigistered
+                post
+                irrespective of whether the borrower has been called upon or proceeded against.</li>
+        </ol>
+        </p>
+        <div class="bottom_header_6">
+            <img src={{bufferCustomerSignature}}></img>
+            <h3>Signature of Borrower</h3>
+        </div>
+    </div>
+    <div class="container_7">
+        <p><span class="span_7">VII. COMMUNICATION / NOTICES/ CORRESPONDENCE</span>
+        <ol>
+            <li>A certificate in writing signed by an officer of the firm stating the amount due at any particular time
+                shall
+                be
+                conclusive evidence both against the borrower and the guarantor.</li>
+            <li>Any notice, letter/ other documents sent by the firm to the borrower / guarantor shall be at address of
+                the
+                borrower
+                and shall be deemed to have been received by the borrower / gurarantor shall be notified in writing
+                against
+                receipt of
+                the company of such change. Any notice to be sent to the firm by the borrower / guarantor shall be sent
+                by
+                prepaid post
+                at its registered office at “MANGLAM BALAJEE FINANCE LIMITED” Plot No. 6, Block-C, Dakshin Gangotri,
+                Supela,
+                Bhilai
+                (C.G.) 490023, Phon - 91-83053-87080</li>
+        </ol>
+        </p>
+        <p><span class="span_7">VIII. REPOSSESSION</span>
+        <ol>
+            <li>Notice period before taking possession: In the event of default by the borrower / co-borrowers notice
+                would
+                be issued
+                for recovery of the outstanding dues on the loan account in accordance with the provisions of applicable
+                laws
+                for debt
+                recovery. The Notice will be sent to the vehicle address and other addresses provided by the Borrower.
+            </li>
+            <li>Circumstances under which the notice period can be waived: the firm shall be entitled to recall the
+                entire
+                outstanding of the loan disbursed at any time at its own discretion without assigning any reason and
+                without
+                prejudice
+                to any other rights, if it has reason to believe that the loan was procured by improper declaration /
+                information or the
+                property offered is inadequate or affected in any way due to non-payment of dues, improper maintenance
+                of the
+                property,
+                breach of any internal policies of the firm, or for any other reason of whatsoever nature.</li>
+            <li>The procedure for taking possession of the property: the firm would follow the procedures laid down
+                under the
+                Hire-purchase Act , 1972 for taking possession of the vehicle and attaching and selling the vehicle.
+            </li>
+        </ol>
+        </p>
+        <p><span class="span_7">IX. EFFECTIVE DATE OF THE AGREEMENT FOR LOAN</span>This agreement shall be in force with
+            effect from
+            and shall be for the duration on the
+            opinion of the firm.”the revenue sharing business”shall be carried on revenue sharing basis only at the
+            centres
+            and
+            location, as mutually agreed, other location and centres can be added by mutual consent.
+        </p>
+        <p><span class="span_7">X. RISK AND REWARD PARTICIPATION</span>The relationship under this agreement requires
+            both the parties
+            to participate and share the rewards in the
+            manner
+            provided in Schedule of this agreement.
+            The terms & conditions stated in the schedule are subject to change during the term of this agreement by
+            mutual
+            consent.The reward for any new or addttional obligations will be discussed and mutually agreed upon.such
+            reward
+            agreement with be by exchange of letters and upon such exchange shall be deemed to form part of this
+            agreement.
+        </p>
+        <p><span class="span_7">XI. ASSIGNMENT</span>“MANGLAM BALAJEE FINANCE LIMITED” shall have full and absolute
+            right to transfer,
+            assign and sell in any manner,
+            in
+            whole or in part, the outstanding and dues to any bank, financial institution, or any other body without
+            reference or
+            intimation to the “borrower / hirer”.Not withstanding any such transfer, assignment or sale, “MANGLAM
+            BALAJEE
+            FINANCE
+            LIMITED” shall be fully empowered to pro- ceed against the “borrower’/ hirer”, jointly or severally with any
+            such
+            purchaser, assignee, or creditor to recover the outstanding amounts from the “borrower/ ‘ hirer”.such
+            assignments shall not in any manner release the
+            “borrower’hirer” of his liability towards “MBFL”
+        </p>
+        <div class="bottom_header_7">
+            <img src={{bufferCustomerSignature}}></img>
+            <h3>Signature of Borrower</h3>
+        </div>
+    </div>
+    <div class="container_8">
+        <p><span class="span_8">XII. COMPLIANCEWITHREGULATIONS</span>
+        <ol>
+            <li>The borrower and “MANGLAM BALAJEE FINANCE LIMITED” agree to comply jointly and severally with all
+                applicable
+                laws and
+                regulations from time to time in force which may be attracted and borrower agrees to indemnify “MANGLAM
+                BALAJEE
+                FINANCE
+                LIMITED” in respect of any loss, claim or expenses to “MANGLAM BALAJEE FINANCE LIMITED” as a result ot
+                non
+                compliance
+                with any such laws and regulations.</li>
+            <li>The borrower agrees that the amount financed shall be increased by incremental taxes, whether sales or
+                excise,
+                interest tax and any other related and consequential charges taxes levied on this transaction now or
+                hereafter
+                to be
+                levied as also any increase in the price of the vehicle to be purchased between the date of placement of
+                the
+                order and
+                delivery date.Any such increase will be paid directly by the borrower to the dealer / “MANGLAM BALAJEE
+                FINANCE
+                LIMITED”
+                without affecting the instalments.
+            </li>
+        </ol>
+        </p>
+        <p><span class="span_8">XIII. ARBITRATION</span>
+        <ol>The Borrower and guarantor agree and confirm that:-<li>All disputes, difference and rights or claims arising
+                out of this agreement whether during its subsis- tence
+                or
+                thereafter shall be settled by arbitration with the provisions of the arbitration and Concilia- tion
+                Act, 1996
+                or any
+                statutory amendments thereof and shall be referred to the sole artbitrator nominated and appointed by
+                “MANGLAM
+                BALAJEE
+                FINANCE LIMITED”. The award given by such an arbitrator shall be final and binding on all parties to
+                this
+                agreement.</li>
+            <li>In the event of such an arbitrator to whom the matter has been so referred, dying or becoming inca-
+                pacitated
+                due to
+                health problems both mental and or physical or does not pass the award within the reasonable period
+                “MANGLAM
+                BALAJEE
+                FINANCE LIMITED” shall appoint a new person to act as an arbitrator .Such person shall be entitled to
+                proceed
+                with the
+                reference from the stage at which it was left by his / her predecessor.</li>
+            <li>The venue of arbitration proceedings shall be and the language of arbitration
+                proceeding shall be in..................................</li>
+        </ol>
+        </p>
+        <p><span class="span_8">XIV. GOVERNING LAWS AND JURISDICTION:</span>This agreement shall be constructed in
+            accordance with the
+            laws in India. Any or all disputes arising out of
+            this
+            agreement shall be subject to the exclusion jurisdiction of the court
+            at.................................................</p>
+
+        <div>
+            <h4>O.R.S.P.
+                (signature of Co-Borrower) With seal
+            </h4>
+            <h4>For, “MANGLAM BALAJEEFINANCE LIMITED”</h4>
+        </div>
+        <div class="bottom_header_8">
+            <img src={{bufferCustomerSignature}}></img>
+            <h3>Signature of Borrower</h3>
+        </div>
+    </div>
+    <div class="container_9">
+        <div>
+            <h3 class="to_9">To,</h3>
+            <div class="header_9">
+                <h4>MANGLAMBALAJEE FINANCE LIMITED</h4>
+                <h4>CIN: U65929CT2019PLC009596</h4>
+                <h4>REGD OFFICE: MANGLAM CHANBERS, BLOCK-C,PLOTE-6,DAKSHIN GANGOTRI SUPELA BHILAI</h4>
+                <h4>DURG; CHHATTISGARH 490023 INDIA</h4>
+            </div>
+            <h3 class="to_letter_9">LETTER OF UNDERTAKING</h3>
+            <h3 class="to_9">Dear Sir,</h3>
+            <p class="para_9">I, the undersigned, being self employed / service proveder/ professional agree and
+                undertake
+                to use
+                the
+                vehicle for the
+                income generating purpose while commuting from my house which is too far from the place where I work
+                It
+                is also a means
+                of transportation for carrying goods / belongings and for providing services which are helpful and
+                used
+                to faciliate my
+                work.Therefore my repayment is inclined towards the income which I will increase with the help of
+                vehicle for which
+                Ihave taken a loan from “MANGLAM BALAJEE FINANCE LIMITED”. I further hereby undertake and agree to
+                bind
+                myself and my,
+                heirs; successors, executors and administrators to indemnify the company from and against any loss
+                suffered or incurred
+                by the company and also irrevocably authorized the company to recover the amount due by me.</p>
+            <p class="para_9">Withness:</p>
+            <p class="para_9">1.{{witness_1_name}}</p>
+            <p class="para_9">2.{{witness_2_name}}</p>
+        </div>
+        <div class="bottom_header_9">
+            <h3>Your Sincerely</h3>
+        </div>
+        <img src={{bufferCustomerSignature}}></img>
+        <h3>Signature of Borrower</h3>
+    </div>
+    <div class="container_10">
+        <div>
+            <h3 class="h3_header_10">PROMISSORY NOTE</h3>
+            <h3 class="date_10">Date:{{date}}</h3>
+        </div>
+        <div class="header_div_10">
+            <p>On Demand I / We {{customer_name}}
+                <br />
+                do here by unconditionally absolutely.Promise to Pay or Order to pay the sum of
+                Rs. {{final_amount}}<br />
+                to gether with interest Rs.{{interest}} P.M / P.A<br />
+                to Shri / M / S. MANGLAMBALAJEE FINANACE LIMITED<br />
+                for value received in Cash / Cheque by me / us. 
+            <h3 class="bottom_10">Signature of Receiver</h3>
+        </div>
+    </div>
+    <div class="container_11">
+        <h3 style="text-decoration: underline;" class="h3_11">
+          Contract letter
+        </h3>
+        <p>कि आज दिनांक को पूर्णव्यास कायस सिस्टम की अन्तर्गतका कर रहा हूँ। नीचे लिखे निम्नलिखित कथन पूर्वक करा</p>
+        <ol>
+            <li>में {{customer_name}} पिता {{village_name}} अभी श्रीवर्तमान में निवासी ग्राम
+                {{division}} तहसील {{district_name}} जिला {{mobile_no}} मोबाइल नम्बर किराये से तोकान मालिक का
+                ..............मोहल्ला..........बार्ड क्रमांक
+                बाजू का रहने वाला हूँ॥</li>
+            <li></li>
+            <li></li>
+            <li>यह कि में समय पर किस्त नहीं पढ़ा पाया तो रुपये 350/- पेनल इंटेस्ट
+                है। जिसे मैं नियमित
+                मातकटा गा
+                एवं एक माट
+                से अधिक होने पर किस्त की राशि प्रतिमा अतिरिक्त दूगा तमाचा खर्च एक बार का 150/- और पान की सीज दोने पर
+                नोटिस चार्ज
+                50/-.
+                या अतिरिक्त पटा गा
+
+                जो मेरे ऋण खाते में लिखी जायेगी।</li>
+            <li>यह कि मैंने यह गाड़ी अच्छी तरह देखकर जांच परख कापनेसर द्वारा हिसाब बताया ग सोच समझकर लिया है। खरीदा गया
+                वाहन बदलकर जता
+                ऐसा भी बताया गया है। जिससे सहमत हूँ।</li>
+            <li>यह कि मैं फायनेस वाहन अपने हाथ में ले कोई दुर्घटना, चोरी, एकसीडेंट, वाहन जलना
+                माह तक
+                से संबंधित कोई भी गैर कानूनी काम जिम्मेदार में स्वयं रहूंगा।</li>
+            <li></li>
+            <li></li>
+            <li>यह कि मेरे द्वारे दो किस्त पढ़ाने पर मेरी पाटन सीज जमा कर ली जायेगी और मेरी दी हुई वाम डूब जायेगी इस संबध
+                मे में
+                कोई
+                विवाद नहीं करूंगा।</li>
+            <li>कि आवश्यकता पड़ने पर कभी भी पहनकर दिखागा।</li>
+            <li>कमांक 01 से 11 तक की सभी सर्वे मुझे मान्य एम इनका सदैव पालन करूगा पद लिखे नियम एवं शो काम करता हूँ तो
+                मुझ पर
+                कानूनी
+                कार्यवाही करके धारा 420 421, 427 एवं</li>
+        </ol>
+    </div>
+    <div class="container_12">
+        <div class="header_12">
+            <h1>MANGLAMBALAJEE FINANCE LIMITED</h1>
+            <h5>CIN: U65929CT2019PLC009596</h5>
+            <h3>REGD OFFICE: MANGLAM CHANBERS, BLOCK-C,PLOTE-6,DAKSHIN GANGOTRI SUPELA BHILAI</h3>
+            <h3>DURG; CHHATTISGARH 490023 INDIA</h3>
+        </div>
+        <div>
+            <h3>Terms of Sanction:</h3>
+        </div>
+        <div>
+            <div class="form_div_12">
+                <table class="table_12">
+                    <tr>
+                        <th class="th_12">S.No.</th>
+                        <th class="th_12">PARTICULARS</th>
+                        <th class="th_12">DETAILS</th>
+                    </tr>
+                    <tr>
+                        <td class="td_12">1</td>
+                        <td class="td_12">Name of the Revenue Sharing Party</td>
+                        <td class="td_12">MANGLAMBALAJEE FINANCE LIMITED</td>
+                    </tr>
+                    <tr>
+                        <td class="td_12">2</td>
+                        <td class="td_12">Name of the Borrower:</td>
+                        <td class="td_12">{{customer_name}}</td>
+                    </tr>
+                    <tr>
+                        <td class="td_12">3</td>
+                        <td class="td_12">Date of Sanction:</td>
+                        <td class="td_12">{{date}}</td>
+                    </tr>
+                    <tr>
+                        <td class="td_12">4</td>
+                        <td class="td_12">Vehicle name and Model</td>
+                        <td class="td_12">{{vehicle_company_name}}{{model_no}}</td>
+                    </tr>
+                    <tr>
+                        <td class="td_12">5</td>
+                        <td class="td_12">Sanction amount:</td>
+                        <td class="td_12">{{loan_amount}}</td>
+                    </tr>
+                    <tr>
+                        <td class="td_12">6</td>
+                        <td class="td_12">Total interest charged:</td>
+                        <td class="td_12">{{interest_amount}}</td>
+                    </tr>
+                    <tr>
+                        <td class="td_12">7</td>
+                        <td class="td_12">Total EMI:</td>
+                        <td class="td_12">{{tenure_in_months}}</td>
+                    </tr>
+                    <tr>
+                        <td class="td_12">8</td>
+                        <td class="td_12">Rate of interest:</td>
+                        <td class="td_12">{{interest}}</td>
+                    </tr>
+                    <tr>
+                        <td class="td_12">9</td>
+                        <td class="td_12">Discount if any:</td>
+                        <td class="td_12">{{scheme}}</td>
+                    </tr>
+                    <tr>
+                        <td class="td_12">10</td>
+                        <td class="td_12">Current value of vehicle:</td>
+                        <td class="td_12">{{final_amount}}</td>
+                    </tr>
+                    <tr>
+                        <td class="td_12">11</td>
+                        <td class="td_12">Penal charges / month:</td>
+                        <td class="td_12"></td>
+                    </tr>
+                    <tr>
+                        <td class="td_12">12</td>
+                        <td class="td_12">Seizure charges</td>
+                        <td class="td_12"></td>
+                    </tr>
+                </table>
+            </div>
+            <h3 style="text-decoration: underline;">Other Terms:</h3>
+            <ol>
+                <p>* Vehicle to be comprehensively insured otherwise firm will insure by charging from your ac-
+                    count.</p>
+
+                <p>* Cheque is issued with utmost guarantee for discharge of liability with sufficient balance in
+                    the
+                    accounts.</p>
+                <p>* Right to seize the vehicle on non payment of two consecutive EMIS.</p>
+                <p>* Cannot sell the vehicle or can move to any other outside location permanently without intimat-
+                    ing in
+                    writing to the
+                    firm.</p>
+            </ol>
+            <h3 class="sign_12">For,“MANGLAM BALAJEE
+                FINANCE LIMITED”
+            </h3>
+            <div class="bottom_header_12">
+                <img src={{bufferCustomerSignature}}></img>
+                <h3>Signature of Borrower</h3>
+    
+            </div>
+            <h3>If the concern agreement is under the Revenue Sharing Agreement executed under which “MANGLAM BALAJEE
+                FINANCE LIMITED”.
+                act as First Revenue Sharing Party.So the Terms and conditions for collection and repayment will be in
+                accordance to the
+                said RSA agreement.</h3>
+        </div>
+
+    </div>
+    <div class="container_13">
+        <div>
+            <h3 class="h3_13">R-1</h3>
+            <p>To,</p>
+            <h3 class="date_13">Date:{{date}}</h3>
+            <p>Dear Sir's,</p>
+            <div class="middle_13">
+                <h4 class="h4_13">Re-Vehicle</h4>
+                <h4 class="h4_13">Engine No.</h4>
+                <h4 class="h4_13">Chassis No.</h4>
+            </div>
+            <p>The above vehicle, of which you are the owner and which I am hiring from you with option to purchase has,
+                for
+                purpose of
+                the Motor Vehicle Act,been registered, showing me as ‘owner’ with your name entered with Hypothecation
+                endorsement in
+                terms of Form ‘E’ to the Schedule to the Motor Vehicle Act, As you are the owner and I am only the hirer
+                and
+                in case you
+                have to reposses the vehicle, you should be in a position to trasnfer registration in my name as owner
+                or to
+                any
+                purchaser From you.for that purpose I have signed blank transfer forms and delivered the same to you.I
+                authorise
+                you fill up and use the forms if and when necessary
+            </p>
+            <div class="bottom_header_13">
+                <p>Yours faithfully</p>
+                <div class="user_photo_13" style="height: 4rem"></div>
+                <p>REGISTERED OWNER</p>
+            </div>
+        </div>
+        <hr>
+        <div>
+            <h3 class="h3_13">R-2</h3>
+            <p>To,</p>
+            <p>The Registering Authority</p>
+            <p>Motor Vehicles Department</p>
+            {{motor_vehicle_department}}
+            <p>Dear Sir,</p>
+            <p>I / we have to inform you that I / We have taken a
+                {{vehicle_company_name}}
+                {{model_no}}
+                from M/s MANGALAM BALAJEE FINANCE LIMITED,
+                year of manufacture
+                2022 Engine No. {{engine_no}} Chassis No.
+                {{chassis_no}} The said vehicle
+                has been taken by me / us under a Hypothecation Agreement dated {{date}} with [
+                ] who are the
+                absolute owner of the said vehicle.
+                I / We have applied for the registration of above vehicle under the rules and the name of the owners
+                i.e.] will be
+                duly endorsed in the said Registration Certificate of the Vehicle
+                I / we hereby authorise you to transfer the said vehicle at the request of [
+                ]These instruction are irrevocable on my / our pan.
+            </p>
+            <div class="bottom_header_13">
+                <p>Yours faithfully</p>
+                <div class="user_photo_13" style="height: 4rem"></div>
+                <p>REGISTERED OWNER</p>
+            </div>
+        </div>
+        <hr>
+        <div>
+            <h3 class="h3_13">R-3</h3>
+            <p>To,</p>
+            <p>Dear Sir,</p>
+            <p>I / We being unable to pay the dues the Hypothecation Agreement dated. entered into with
+                you in respect of Motor Vehicle No {{vehicle_number}} bearning Engine
+                No.{{engine_no}}
+                chassis No. hereby surrender the said Motor Vehicle to you which is your absolute property.
+                I / We request you to sell the above said vehicle. I / We hereby confirm that I am / we are still liable
+                and undertake
+                to pay any amount due after the surrender of the vehicle, in terms of the Hypothecation Agreement
+                entered into with you.
+                Moreover my vehicle can be sold without Intervention of Courtl
+            </p>
+            <div class="bottom_header_13">
+                <p>Yours faithfully</p>
+                <div class="user_photo_13" style="height: 4rem"></div>
+                <p>REGISTERED OWNER</p>
+            </div>
+        </div>
+    </div>
+    <div class="container_14">
+        <div>
+            <h3 class="h3_14">R-4</h3>
+            <p>To,</p>
+            <p>The Registering Authority</p>
+            <p>Motor Vehicles Department</p>
+            {{motor_vehicle_department}}
+            <p>Dear Sir's,</p>
+            <p>Re:Vehicle No. {{vehicle_number}}
+                I hereby inform you that I have surrendered the above vehicle to the owner [
+                ] and request you to kindly transfer the said vehicle in their name and oblige.
+            </p>
+            <div class="bottom_header_14">
+                <div class="user_photo_14" style="height: 4rem"></div>
+                <p>REGISTERED OWNER</p>
+            </div>
+        </div>
+        <hr>
+        <div>
+            <h3 class="h3_14">R-5</h3>
+            <p>From</p>
+            ...........<br />
+            ............<br />
+            ..........
+            <p>Dear Sir,</p>
+            <p>Re:Vehicle No. {{vehicle_number}}
+                I / We hold the above registered in my / our name under a Hypothecation Agreement dated from
+                [ ] I am / we
+                are not in a position to pay the due hire installment.I / we therefore request you to kindly transfer
+                the said vehicle
+                in the name of [
+                ] or their nominee under their instruction as and when desired by them.
+            </p>
+            <p>Thanking you</p>
+            <p>Signature of witness</p>
+            <img src={{bufferWitness1Signature}}></img>
+            <p>Name {{witness_1_name}}</p>
+            <p>Occupation.{{witness_1_occupation}}</p>
+            <p>Address {{witness_1_landmark}}
+                {{witness_1_ward_no}}
+                {{witness_1_village}}
+                {{witness_1_postal_code}}
+                {{witness_1_division}}
+                {{witness_1_district_name}}
+                {{witness_1_city}}
+                {{witness_1_state}}</p>
+            <div class="bottom_header_14">
+                <div class="user_photo_14" style="height: 4rem"></div>
+                <p>REGISTERED OWNER</p>
+            </div>
+        </div>
+        <hr>
+        <div>
+            <h3 class="h3_14">R-6</h3>
+            <p>To,</p>
+            <p>The Registering Authority</p>
+            <p>Motor Vehicles Department</p>
+            <p>{{motor_vehicle_department}}</p>
+            <p>Dear Sir's,</p>
+            <p>Re: Vehicle No
+                ..............................................................................................................................................
+                I hereby authorise you to please hand over the papers of the above vehicle i.e. Registration
+                Certificate,
+                Permit and
+                Token to the bearer of this letter on my behalf & oblige.
+            </p>
+            <p>Thanking you</p>
+            ............. <br />
+            <p>Signature of the above</p>
+            <p>Bearer Attested</p>
+            <div class="bottom_header_14">
+                <div class="user_photo_14" style="height: 4rem"></div>
+                <p>REGISTERED OWNER</p>
+            </div>
+        </div>
+    </div>
+    <div class="container_15">
+        <div>
+            <h3 class="header_15">FORM 26 (See Rule 53)</h3>
+            <p>Intimation of loss or destruction etc. of the Certificate of Registration and application for the issue
+                of
+                duplicate
+                Certificate of Registration (To be made duplicate if the vehicle is held under an agreement of
+                Hypothecation
+                /
+                Lease and
+                the duplicate copy with the endorse- ment of the Registering Authority to be returned to the Finance
+                Simultaneousie of
+                the issue of duplicate).</p>
+            <h3 class="header_15">THE REGISTERING AUTHORITY</h3>
+            <hr class="hr_line_15">
+            <p>Sir,</p>
+            <p>The Certificate of Registration of my / our Motor Vehicle the Registration mark of which is has been lost
+                /
+                destroyed / completely written off / soiled / torn / mutilated in the following circumstances.
+                .....................................................................................................
+                I / We do here do declare that to the best of my / our knowledge the registration of the vehicle has not
+                bee
+                suspended
+                or cancelled under the provisions of the act or rules made thereunder and the circumstances explained
+                above
+                are
+                true.
+                I / We do hereby apply for the issue of a duplicate Certificate of Registration. The written off /
+                soiled /
+                torn/
+                mutilated certificate of Registration is enclosed. I / We have reported the loss to the Police Station
+                (Date)
+            </p>
+            <p>Date.......................</p>
+
+            <div>
+                <p>Strike out whichever is inapplicable.</p>
+                <p>Signature / Thumb impression of applicant along with full address</p>
+            </div>
+
+            <p>The vehicle is held under hypothecation agreement with and the “No Objection Certificate” obtained from
+                the
+                financer is
+                enclosed.</p>
+
+            <p>(Where “No Objection Certificate” is not enclosed, applicant shall make a declaration as required under
+                subsection (8)
+                of section (51).</p>
+            <div class="first_bottom_15">
+                <div class="first_bottom_sub_15">
+                    <p>Specimen Signature of the Owner.
+                    </p>
+                    (1)<div class="user_photo_15" style="height: 4rem"></div>
+                    (2)<div class="user_photo_15" style="height: 4rem"></div>
+                </div>
+                <div class="first_bottom_sub_15">
+                    <p>Signature of the Owner</p>
+                    <div class="user_photo_15" style="height: 4rem"></div>
+                    <p>Name__________________________</p>
+                    <p>Address____________________________</p>
+                </div>
+            </div>
+            <p>Note:</p>
+            <p>(1) Full particulars of the circumstances shall be furnished in the case of loss or destruction of
+                the
+                Registration
+                Certificate.</p>
+            <p>(2) Strike out whichever is inapplicable.
+            </p>
+        </div>
+        <hr class="hr_line_15">
+        <div>
+            <h3 class="header_15">FORM 26 (See Rule 53)</h3>
+            <p>Intimation of loss or destrction etc. of the Certificate of Registration and application for the issue of
+                duplicate
+                Certificate of Registration</p>
+            <hr class="hr_line_15">
+            <p>(to be made duplicate if the vehicle is held under an agreement of Hypothecation / Lease and the
+                duplicate copy
+                with the
+                endorse- ment of the registering Authority to be returned to the Finance Simultaneousle of the issue of
+                duplicate).</p>
+            <hr class="hr_line_15">
+            <h3>THE RESGISTERING AUTHORITY</h3>
+            <p>Sir,</p>
+            <p>The certificate of Registration of my / our Motor Vehicle the Registration mark of which is has been lost
+                /
+                destroyed / completely written off / soiled / torn / mutilated in the following circumstances.
+                .....................................................................................................
+                I / We do here do declare that to the best of my / our knowledge the registration of the vehicle has not
+                bee
+                suspended
+                or cancelled under the provisions of the act or rules made thereunder and the circumstances explained
+                above are
+                true.
+                I / We do hereby apply for the issue of a duplicate Certificate of Registration. The written off /
+                soiled /
+                torn/
+                mutilated Certificate of Registration is enclosed. I / We have reported the loss to the Police Station
+                (Date)
+            </p>
+            <div class="first_bottom_15">
+                <p>Date.......................</p>
+                <p>Signature / Thumb impression of applicant along with full address
+                </p>
+            </div>
+
+            <p>Strike out whichever is inapplicable.</p>
+            <p>The vehicle is held under hypothecation agreement with and the “No Objection Certificate” obtained from
+                the
+                financer is
+                enclosed.</p>
+            <p>(Where “No Objection Certificate” is not enclosed, applicant shall make a declaration as required under
+                subsection (8)
+                of section (51).</p>
+            <p>Specimen Signature of the Owner.</p>
+            <div class="first_bottom_15">
+                <div class="first_bottom_sub_15">
+                    <p>Specimen Signature of the Owner.
+                    </p>
+                    (1)<div class="user_photo_15" style="height: 4rem"></div>
+                    (2)<div class="user_photo_15" style="height: 4rem"></div>
+                </div>
+                <div class="first_bottom_sub_15">
+                    <p>Signature of the Owner</p>
+                    <div class="user_photo_15" style="height: 4rem"></div>
+                    <p>Name__________________________</p>
+                    <p>Address____________________________</p>
+                </div>
+            </div>
+            <p>Note:</p>
+            <p>(1) Full Particulars of the circumstances shall be furnished in the case of loss or destruction of
+                the
+                Registration
+                Certificate.</p>
+            <p>(2) Strike out whichever is inapplicable.</p>
+        </div>
+    </div>
+    <div class="container_16">
+        <div class="main_div_16">
+            <h3 class="h3_16">For Office Endorsement</h3>
+            <p>Number............................................................dated...............................office
+                of
+                the..................
+                A duplicate certificate of registration as required above is issued with the note of agreement of
+                Hypothecation on
+                ........................................................and is noted in the original registration
+                records in Form 24.
+            </p>
+            <h5 class="h5_16">Signature of Registering Authority</h5>
+            <p>To</p>
+            <p>
+                MANGLAMBALAJEE FINANCE LIMITED<br />
+                MANGLAM CHANBERS, BLOCK-C,PLOTE-6,DAKSHIN GANGOTRI SUPELA BHILAI<br />
+                (Name and Address of the finance)</p>
+
+            <p>By registered post of delivered under proper acknowledge.</p>
+        </div>
+        <div class="main_div_16">
+            <h3 class="h3_16">For Office Endorsement</h3>
+            <p>Number............................................................dated...............................office
+                of
+                the..................
+                A duplicate certificate of registration as required above is issued with the note of agreement of
+                Hypothecation on
+                ........................................................and is noted in the original registration
+                records in Form 24.
+            </p>
+            <h5 class="h5_16">Signature of Registering Authority</h5>
+            <p>To</p>
+            <p>
+                ................................................<br />
+                ................................................<br />
+                (Name and Address of the finance)</p>
+
+            <p>By registered post of delivered under proper acknowledge.</p>
+        </div>
+    </div>
+    <div class="container_17">
+        <div>
+            <h3 class="header_17">FORM 28</h3>
+            <h3>[(See rule 58, 58 (1), (3) and (4] Form of application for ‘No Objection Certificate’ and grant of
+                Certificate</h3>
+
+            <p>(To be made in triplicate and the triplicate copy with the endorsement of the
+                Registering Authority to be returned to the owner of the vehicle and the Registering Authority n whose
+                jurisdiction the vehicle is to be removed,
+                respectively)</p>
+
+
+            <h3 class="header_17">PART-I </h3>
+            <p>To,</p>
+            <p>The Registering Authority.</p>
+            <p>I / We intend to transfer the vehicle to the jurisdiction of the Registering
+                Authority I / we intend to sell intend to sell the vehicle to Shri/ smt. / Kumari who resides in the
+                jurisdiction of the Registering Authority to the date of I / We there for request for the issue of a no
+                objection certificate for my / our vehicle the particulars of whcih are furnished below.</p>
+            <ol>
+                <li>Name and
+                    address:</li>
+                <li>Son / wife/ daughter of :</li>
+                <li>Registration number of the Vehicle :</li>
+                <li>Class of Vehicle</li>
+                <li>Registering
+                    Authority</li>
+                <li>which originally registered the vehicle:</li>
+                <li>Engine No.</li>
+                <li>Chassis No.- Affix pencil print.</li>
+                <li>Period of stay
+                    in
+                    the State:</li>
+                <li>Period upto which Motor Vehicle tax has been paid:</li>
+                <li>Whether any demand for tax is pending,
+                    if
+                    so, give details:</li>
+                <li>Whether the vehicle is involved in any theft cases, if so give details:</li>
+                <li>Whether
+                    any
+                    action under section 53, 54 or 55 of the Motor Vehicle Act, 1988 is pending before any Registering
+                    Authority
+                    or
+                    other prescribed authority, if so, give details. 13. Whether the vehicle is involved in any case of
+                    transport of
+                    prohibited goods, if so, give details.</li>
+            </ol>
+            <p>I / We solemnly declare that the above statements are true.</p>
+            <div>
+                <p>Date:</p>
+                <p>1(A)</p>
+                <p>Signature of the owner of the vehicle</p>
+                <p>SIGNATURE OF REGISTERED OWNER</p>
+            </div>
+
+            <hr />
+            <div>
+                <h3 class="header_17">FORM 28</h3>
+                <h3>[(See rule 58, 58 (1), (3) and
+                    (4]
+                    Form of application for ‘No Objection Certificate’ and grant of Certificate</h3>
+                <p>(To be made in triplicate and
+                    the
+                    triplicate copy with the endorsement of the Registering Authority to be returned to the owner of the
+                    vehicle
+                    and
+                    the Registering Authority n whose jurisdiction the vehicle is to be removed,
+                    respectively)</p>
+                <h3 class="header_17">PART-I </h3>
+                <p>To,</p>
+                <p>The Registering Authority.</p>
+                <p>I / We intend to transfer the vehicle to the jurisdiction of the Registering
+                    Authority I / we intend to sell intend to sell the vehicle to Shri/ smt. / Kumari who resides in the
+                    jurisdiction of the Registering Authority to the date of I / We there for request for the issue of a
+                    no
+                    objection certificate for my / our vehicle the particulars of whcih are furnished below.</p>
+                <ol>
+                    <li>Name and
+                        address:</li>
+                    <li>Son / wife/ daughter of :</li>
+                    <li>Registration number of the Vehicle :</li>
+                    <li>Class of Vehicle</li>
+                    <li>Registering
+                        Authority</li>
+                    <li>which originally registered the vehicle:</li>
+                    <li>Engine No.</li>
+                    <li>Chassis No.- Affix pencil print.</li>
+                    <li>Period of stay
+                        in
+                        the State:</li>
+                    <li>Period upto which Motor Vehicle tax has been paid:</li>
+                    <li>Whether any demand for tax is pending,
+                        if
+                        so, give details:</li>
+                    <li>Whether the vehicle is involved in any theft cases, if so give details:</li>
+                    <li>Whether
+                        any
+                        action under section 53, 54 or 55 of the Motor Vehicle Act, 1988 is pending before any
+                        Registering
+                        Authority
+                        or
+                        other prescribed authority, if so, give details. 13. Whether the vehicle is involved in any case
+                        of
+                        transport of
+                        prohibited goods, if so, give details.</li>
+                </ol>
+                <p>I / We solemnly declare that the above statements are true.</p>
+                <div>
+                    <p>Date:</p>
+                    <p>1(A)</p>
+                    <p>Signature of the owner of the vehicle</p>
+                    <p>SIGNATURE OF REGISTERED OWNER</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container_18">
+        <div class="main_div_18">
+            <h3 class="header_18">OFFICE ENDORESEMENT</h3>
+            <h3 class="header_18">Part-II</h3>
+            <p>(Grant / Refusal No Objection Certificate under- sub- section 3 of section 48 of M.V.Act, 1988)</p>
+            <p>(i) No.Objection Certificate in respect of the vehicle, the detailed particulars where of recorded
+                overleaf
+                is
+                hereby
+                granted under section 48 (3) M.V.Act, 1988.</p>
+            <p>(ii) No. Objection Certificate in respect of the Motor vehicle. The detailed particular whereof recorded
+                overleaf is
+                refused under section 48 (3) M.V.Act, 1988 for the reasons recorded as under:</p>
+            ...............................................................................................................................................................
+            ..............................................................................................................................................................
+            <div class="bottom_18">
+                <p>Date :......................................</p>
+                <p>Signature with Seal of Registering</p>
+            </div>
+            <p>Authority </p>
+            <p>To, </p>
+            <div class="bottom_18">
+                <p>...........................................(Registered Owner) </p>
+                <p>Address :- .......................................</p>
+            </div>
+        </div>
+        <div class="main_div">
+            <h3 class="header_18">OFFICE ENDORESEMENT</h3>
+            <h3 class="header_18">Part-II</h3>
+            <p>No ...............Date........................Office of the Acknowledgement for the
+                receipt of application for ‘No Objection Certification .’ The application dated from
+                (Name and address) for the grant of a No. Objection Certificate’ in respect of vehicle number has
+                been received on and is under consideration.
+            </p>
+            <div class="bottom_18">
+                <p>Date:.........</p>
+                <p>Signature of Registering Authority of the person authorised by him
+                    office seal_______________</p>
+            </div>
+            <div class="bottom_18">
+                <p>To_________________</p>
+                <p>By Registered post or delivered under</p>
+            </div>
+
+            <p>(Registered Owner)</p>
+        </div>
+        <div class="main_div">
+            <h3 class="header_18">OFFICE ENDORESEMENT</h3>
+            <h3 class="header_18">Part-II</h3>
+            <p>(Grant / Refusal No Objection Certificate under- sub- section 3 of section 48 of M.V.Act, 1988)</p>
+            <p>(i) No.Objection Certificate in respect of the vehicle, the detailed particulars where of recorded
+                overleaf
+                is
+                hereby
+                granted under section 48 (3) M.V.Act, 1988.</p>
+            <p>(ii) No. Objection Certificate in respect of the Motor vehicle. The detailed particular whereof recorded
+                overleaf is
+                refused under section 48 (3) M.V.Act, 1988 for the reasons recorded as under:</p>
+            .........................................................................................................................................................
+            .........................................................................................................................................................
+            <div class="bottom_18">
+                <p>Date :......................................</p>
+                <p>Signature with Seal of Registering</p>
+            </div>
+            <p>Authority </p>
+            <p>To, </p>
+            <div class="bottom_18">
+                <p>...........................................(Registered Owner) </p>
+                <p>Address :- .......................................</p>
+            </div>
+        </div>
+        <div class="main_div">
+            <h3 class="header_18">OFFICE ENDORESEMENT</h3>
+            <h3 class="header_18">Part-II</h3>
+            <p>No ...............Date........................Office of the Acknowledgement for the
+                receipt of application for ‘No Objection Certification .’ The application dated from
+                (Name and address) for the grant of a No. Objection Certificate’ in respect of vehicle number has
+                been received on and is under consideration.
+            </p>
+            <div class="bottom_18">
+                <p>Date:.........</p>
+                <p>Signature of Registering Authority of the person authorised by him
+                    office seal_______________</p>
+            </div>
+            <div class="bottom_18">
+                <p>To_________________</p>
+                <p>By Registered post or delivered under</p>
+            </div>
+
+            <p>(Registered Owner)</p>
+        </div>
+    </div>
+    <div class="container_19">
+        <div>
+            <h3 class="header_19">FORM 28</h3>
+            <h3>[(See rule 58, 58 (1), (3) and (4] Form of application for ‘No Objection Certificate’ and grant of
+                Certificate</h3>
+
+            <p>(To be made in triplicate and the triplicate copy with the endorsement of the
+                Registering Authority to be returned to the owner of the vehicle and the Registering Authority n
+                whose
+                jurisdiction the vehicle is to be removed,
+                respectively)</p>
+
+
+            <h3 class="header_19">PART-I </h3>
+            <p>To,</p>
+            <p>The Registering Authority.</p>
+            <p>I / We intend to transfer the vehicle to the jurisdiction of the Registering
+                Authority I / we intend to sell intend to sell the vehicle to Shri/ smt. / Kumari who resides in the
+                jurisdiction of the Registering Authority to the date of I / We there for request for the issue of a
+                no
+                objection certificate for my / our vehicle the particulars of whcih are furnished below.</p>
+            <ol>
+                <li>Name and
+                    address:</li>
+                <li>Son / wife/ daughter of :</li>
+                <li>Registration number of the Vehicle :</li>
+                <li>Class of Vehicle</li>
+                <li>Registering
+                    Authority</li>
+                <li>which originally registered the vehicle:</li>
+                <li>Engine No.</li>
+                <li>Chassis No.- Affix pencil print.</li>
+                <li>Period of stay
+                    in
+                    the State:</li>
+                <li>Period upto which Motor Vehicle tax has been paid:</li>
+                <li>Whether any demand for tax is pending,
+                    if
+                    so, give details:</li>
+                <li>Whether the vehicle is involved in any theft cases, if so give details:</li>
+                <li>Whether
+                    any
+                    action under section 53, 54 or 55 of the Motor Vehicle Act, 1988 is pending before any
+                    Registering
+                    Authority
+                    or
+                    other prescribed authority, if so, give details. 13. Whether the vehicle is involved in any case
+                    of
+                    transport of
+                    prohibited goods, if so, give details.</li>
+            </ol>
+            <p>I / We solemnly declare that the above statements are true.</p>
+            <div>
+                <p>Date:</p>
+                <p>1(A)</p>
+                <p>Signature of the owner of the vehicle</p>
+                <p>SIGNATURE OF REGISTERED OWNER</p>
+            </div>
+        </div>
+    </div>
+    <div class="container_20">
+        <div class="main_div_20">
+            <h3 class="header_20">OFFICE ENDORESEMENT</h3>
+            <h3 class="header_20">Part-II</h3>
+            <p>(Grant / Refusal No Objection Certificate under- sub- section 3 of section 48 of M.V.Act, 1988)</p>
+            <p>(i) No.Objection Certificate in respect of the vehicle, the detailed particulars where of recorded
+                overleaf
+                is
+                hereby
+                granted under section 48 (3) M.V.Act, 1988.</p>
+            <p>(ii) No. Objection Certificate in respect of the Motor vehicle. The detailed particular whereof recorded
+                overleaf is
+                refused under section 48 (3) M.V.Act, 1988 for the reasons recorded as under:</p>
+            ..............................................................................................................................................................
+            ..............................................................................................................................................................
+            <div class="bottom_20">
+                <p>Date :......................................</p>
+                <p>Signature with Seal of Registering</p>
+            </div>
+            <p>Authority </p>
+            <p>To, </p>
+            <div class="bottom_20">
+                <p>...........................................(Registered Owner) </p>
+                <p>Address :- .......................................</p>
+            </div>
+        </div>
+        <div class="main_div">
+            <h3 class="header_20">OFFICE ENDORESEMENT</h3>
+            <h3 class="header_20">Part-II</h3>
+            <p>No ...............Date........................Office of the Acknowledgement for the
+                receipt of application for ‘No Objection Certification .’ The application dated from
+                (Name and address) for the grant of a No. Objection Certificate’ in respect of vehicle number has
+                been received on and is under consideration.
+            </p>
+            <div class="bottom_20">
+                <p>Date:.........</p>
+                <p>Signature of Registering Authority of the person authorised by him
+                    office seal_______________</p>
+            </div>
+            <div class="bottom_20">
+                <p>To_________________</p>
+                <p>By Registered post or delivered under</p>
+            </div>
+            <p>(Registered Owner)</p>
+            <div>
+                <p>I hereby declare that I / We have on this day of the year
+                    purchased the motor vehicles bearing registration number
+                    from (name and full address) and request the necessary entires regarding the transfer of ownership
+                    of
+                    the vehicle in my
+                    / our name may be recorded in the certificate of registration / certificate of fitness of the
+                    vehicle,
+                    which is
+                    enclosed.
+                    The Certificate of insurance is also enclosed
+                </p>
+            </div>
+            <p class="bottom_right_20">__________________________</p>
+            <p class="bottom_right_20">Signature of the tranferee (purchaser)</p>
+            <p>Specimen signature of the transferee (purchaser)</p>
+            <p>(1)_______________________________</p>
+            <p>(2)_______________________________</p>
+            <p>Consent of the financer in the case of motor vehicle subject to an agreement of hypothecation.</p>
+            <p>I / We being a party to an agreement of hypothecation in respect of motor vehicle
+                give consent to the transfer of ownership of the said vehicle to Shri / Smt. / kumari with whom I / we
+                have entered into
+                an agreement of hire purchase / lease / hypothecation.</p>
+            <p class="bottom_right_20">__________________________</p>
+            <p class="bottom_right_20">Signature of the Financer</p>
+        </div>
+        <div>
+            <p>Date __________________</p>
+            <h3 class="header_20">OFFICE ENDORESEMENT</h3>
+            <p>No_________________________ Date_________________________ Office of the_______________________
+                The transfer of ownership of vehicle has been recorded with effect from_____________________________ on
+                the registration certificate
+                of the vehicle________________________
+                and in the registration record of this office</p>
+            <p class="bottom_right_20">Registering Authory</p>
+            <p>To _________________________</p>
+            ____________________________
+            <p>(Name & Address of the financer)</p>
+            <p>By registered post or delivered under proper acknowledgement</p>
+        </div>
+    </div>
+    <div class="container_21">
+        <h3 class="header_21">FORM 30</h3>
+        <h3 class="header_21">[See Rule 55 (2) and (3]</h3>
+        <h3>(To be made in duplicate if the vehicle is held under an agreement of Hire-purchase / Lease Hypothecation
+            and
+            duplicate
+            copy with the endorsement of the Registering Authority to be returned to the financer simultaneously on the
+            making
+            the
+            entry of transfer of ownership in the certificate of registration.)
+            To,</h3>
+        <h3 class="header_21">REPORT OF TRANSFER OF OWNERSHIP OF A MOTOR</h3>
+        <p>To,</p>
+        <h3>The Registering Authority</h3>
+        ......................................................................
+        ......................................................................
+        <p>Name f the
+            Transferor...................................................................................................................
+        </p>
+        <p>Son / Wife /
+            Daughterof.................................................................................................................
+        </p>
+        <p>Full
+            Address....................................................................................................................................
+            ......................................................................................................................................................
+        </p>
+        <p>I / We hereby declare that I / We have on this .................day of.......................of the
+            year..................
+            sold my / our motor vehicle bearing registration mark. to
+            Shri / Smt. /
+            Ms..............................................................................................................................
+            Son / Wife / Daughter
+            of..................................................................................Residing
+            at.............
+            .....................................................................................................................................................
+            (Full Address) and handed over the certificate of Registration and the Certificate of Insurance to him / her
+            / them.
+            I / We hereby declare that to the best of my / our knowledge and certificate of registration the vehicle has
+            been
+            has
+            not been suspended* or cancelled.</p>
+        <p>* I enclose the “No Objection Certificate” issued b the Registering Authority.
+        </p>
+        <p>* If the “No Objection Certificate” from the Registering Authority is not enclosed the transferor should file
+            along
+            with
+            this application a declaration as required under Sub-Section (i) of section 50
+            .</p>
+        <h4 class="bottom_right_21">Signature of the Transferor</h4>
+        <p>Date.....................................</p>
+        <p>*Details of suspension or cancellation.</p>
+        <p>** Strike out which is inapplicable.</p>
+    </div>
+    <div class="container_22">
+        <h3 class="header_22">PART-II For the use of Transferer</h3>
+        <p>To,</p>
+        <h3>The Registering Authority,</h3>
+        ...............................................
+        <p>Name of the
+            Transferee....................................................................................................................................
+        </p>
+        <p>Son / wife / Daughter
+            of................................................................................................................................................
+        </p>
+        <p>>
+            Full
+            Address.........................................................................................................................................
+        </p>
+        <p>(Proof of address to be
+            enclosed)....................................................................................................................................
+        </p>
+        <p>I hereby, declare that I / We have on this .............................day of
+            ................................of
+            the
+            year...............................</p>
+        <p>purchased the motor vehicle bearing registration
+            number...............................................................................................</p>
+        <p>from................................................................................................................................................
+        <p>(Name and full Address) and request that necessary entries regarding the transfer of ownership of the
+            vehicle in
+            my
+            /
+            our name may be recorded in the certificate of registration / certificate of fitness of the vehicle, which
+            is
+            enclosed.</p>
+        <p>The certificate of insurance is also enclosed.</p>
+        <p>
+            “To the best of my knowledge and belief I have not suppressed any facts and information furnished is true.l
+            The
+            vehicle
+            is not superdari and free from all encumberances. I undertake to hold myself responsible for any inacccuracy
+            of information.</p>
+        <p class="bottom_right_22">(.....................................)</p>
+        <h3 class="bottom_right_22">Signature of the Transferee.</h3>
+        <h3>Specimen Signature of the Transferee
+        </h3>
+        <p>Consent of the Financer in the case of motor vehicle subject to an agreement of hire-purchase / lease Hypoth-
+            ecation. I
+            / We being a party to an agreement of hire-purchase / hypothecation in respect of motor vehicle give
+            consent to the transfer of ownership of the said vehicle to Shri / Smt / kumari with them. I / We
+            have entered into an agreement of hire-purchase / lease hypothecation.
+        </p>
+        <p class="bottom_right_22">Signature
+        </p>
+        <h3 class="header_22">OFFICE ENDORSEMENT</h3>
+        <p>No...................................Date...........................Office of
+            the........................................................................................
+            The transfer of ownership of vehicle has been recorded with effect from on the registration Certifi-
+            cate of the vehicle and in the registration record of this office.</p>
+        <p class="bottom_right_22">Registering Authority</p>
+        <p>To</p>
+        ................................................<br />
+        ................................................
+        <p>(Name and Address of the financier)</p>
+        <p>By registered post of delivered under proper acknowledgement.</p>
+    </div>
+    <div class="container_23">
+        <h3 class="header_23">FORM 30</h3>
+        <h3 class="header_23">[See Rule 55 (2) and (3]</h3>
+        <h3>(To be made in duplicate if the vehicle is held under an agreement of Hire-purchase / Lease Hypothecation
+            and
+            duplicate
+            copy with the endorsement of the Registering Authority to be returned to the financer simultaneously on the
+            making
+            the
+            entry of transfer of ownership in the certificate of registration.)
+            To,</h3>
+        <h3 class="header_23">REPORT OF TRANSFER OF OWNERSHIP OF A MOTOR</h3>
+        <p>To,</p>
+        <h3>The Registering Authority</h3>
+        ......................................................................
+        ......................................................................
+        <p>Name f the
+            Transferor...................................................................................................................
+        </p>
+        <p>Son / Wife /
+            Daughterof.................................................................................................................
+        </p>
+        <p>Full
+            Address....................................................................................................................................
+            ......................................................................................................................................................
+        </p>
+        <p>I / We hereby declare that I / We have on this .................day of.......................of the
+            year..................
+            sold my / our motor vehicle bearing registration mark. to
+            Shri / Smt. /
+            Ms..............................................................................................................................
+            Son / Wife / Daughter
+            of..................................................................................Residing
+            at.............
+            .....................................................................................................................................................
+            (Full Address) and handed over the certificate of Registration and the Certificate of Insurance to him / her
+            / them.
+            I / We hereby declare that to the best of my / our knowledge and certificate of registration the vehicle has
+            been
+            has
+            not been suspended* or cancelled.</p>
+        <p>* I enclose the “No Objection Certificate” issued b the Registering Authority.
+        </p>
+        <p>* If the “No Objection Certificate” from the Registering Authority is not enclosed the transferor should file
+            along
+            with
+            this application a declaration as required under Sub-Section (i) of section 50
+            .</p>
+        <h4 class="bottom_right_23">Signature of the Transferor</h4>
+        <p>Date.....................................</p>
+        <p>*Details of suspension or cancellation.</p>
+        <p>** Strike out which is inapplicable.</p>
+    </div>
+    <div class="container_24">
+        <h3 class="header_24">PART-II For the use of Transferer</h3>
+        <p>To,</p>
+        <h3>The Registering Authority,</h3>
+        ...............................................
+        <p>Name of the
+            Transferee..................................................................................................................................
+        </p>
+        <p>Son / wife / Daughter
+            of................................................................................................................................................
+        </p>
+        <p>>
+            Full
+            Address..............................................................................................................................................
+        </p>
+        <p>(Proof of address to be
+            enclosed)....................................................................................................................................
+        </p>
+        <p>I hereby, declare that I / We have on this .............................day of
+            ................................of
+            the
+            year...............................</p>
+        <p>purchased the motor vehicle bearing registration
+            number...............................................................................................</p>
+        <p>from...................................................................................................................................................
+        <p>(Name and full Address) and request that necessary entries regarding the transfer of ownership of the
+            vehicle in
+            my
+            /
+            our name may be recorded in the certificate of registration / certificate of fitness of the vehicle, which
+            is
+            enclosed.</p>
+        <p>The certificate of insurance is also enclosed.</p>
+        <p>
+            “To the best of my knowledge and belief I have not suppressed any facts and information furnished is true.l
+            The
+            vehicle
+            is not superdari and free from all encumberances. I undertake to hold myself responsible for any inacccuracy
+            of information.</p>
+        <p class="bottom_right_24">(.....................................)</p>
+        <h3 class="bottom_right_24">Signature of the Transferee.</h3>
+        <h3>Specimen Signature of the Transferee
+        </h3>
+        <p>Consent of the Financer in the case of motor vehicle subject to an agreement of hire-purchase / lease Hypoth-
+            ecation. I
+            / We being a party to an agreement of hire-purchase / hypothecation in respect of motor vehicle give
+            consent to the transfer of ownership of the said vehicle to Shri / Smt / kumari with them. I / We
+            have entered into an agreement of hire-purchase / lease hypothecation.
+        </p>
+        <p class="bottom_right_24">Signature
+        </p>
+        <h3 class="header">OFFICE ENDORSEMENT</h3>
+        <p>No...................................Date...........................Office of
+            the........................................................................................
+            The transfer of ownership of vehicle has been recorded with effect from on the registration Certifi-
+            cate of the vehicle and in the registration record of this office.</p>
+        <p class="bottom_right_24">Registering Authority</p>
+        <p>To</p>
+        ................................................<br />
+        ................................................
+        <p>(Name and Address of the financier)</p>
+        <p>By registered post of delivered under proper acknowledgement.</p>
+    </div>
+    <div class="container_25">
+        <div>
+            <h2 class="header_25">FORM -29</h2>
+            <h3 class="header_25">[(See Rulee 55 (i)]</h3>
+            <h3 class="header_25">Form of notice of Transfer of ownership of a motor vehicle</h3>
+            <p>(To be made in duplicate and the duplicate copy with the endorsement of the registering authority to be
+                returned to
+                the
+                transferor immediately of making entries of transfer of ownership)</p>
+            <p>To,</p>
+            <p>The Registering Authority,</p>
+            <p>..................................................(in whose juridsdiction the transferee resides)</p>
+            <p>I / We residing
+                at...............................................................have on
+                the................................................day of the year
+                ...............................Chassis No. ...............................................Engine No. to
+                Shri / Smt .................................(Name ) son / wife / daughter
+                of........................................................
+                residing
+                at..........................................................................................................(House
+                No.
+                Street /
+                Village Town Distt. & State)</p>
+            <p>The registration certificate and insurance certificate have been handed over to him / her / them
+            </p>
+            <p>Date.....................</p>
+            <p class="bottom_right_25">Signature of the Registered Owner
+                (Transferor)</p>
+        </div>
+        <hr />
+        <div>
+            <h2 class="header_25">FORM -29</h2>
+            <h3 class="header_25">[(See Rulee 55 (i)]</h3>
+            <h3 class="header_25">Form of notice of Transfer of ownership of a motor vehicle</h3>
+            <p>(To be made in duplicate and the duplicate copy with the endorsement of the registering authority to be
+                returned to
+                the
+                transferor immediately of making entries of transfer of ownership)</p>
+            <p>To,</p>
+            <p>The Registering Authority,</p>
+            <p>..................................................(in whose juridsdiction the transferee resides)</p>
+            <p>I / We residing
+                at...............................................................have on
+                the................................................day of the year
+                ...............................Chassis No. ...............................................Engine No. to
+                Shri / Smt .................................(Name ) son / wife / daughter
+                of........................................................
+                residing
+                at..........................................................................................................(House
+                No.
+                Street /
+                Village Town Distt. & State)</p>
+            <p>The registration certificate and insurance certificate have been handed over to him / her / them
+            </p>
+            <p>Date.....................</p>
+            <p class="bottom_right_25">Signature of the Registered Owner
+                (Transferor)</p>
+        </div>
+    </div>
+    <div class="container_26">
+        <div>
+            <p>C.C.</p>
+            <p>I......................................... (Transferee)</p>
+            <p>(Copy to the Registering Authority in shose juridiction the transfer resides)</p>
+            <p>Note: To be sent to the Registering Authority by Regd.Post Acknowledgement Due.</p>
+            <h3 class="header_26">Office Endorsement</h3>
+            <p>No...........................Dated....................Office of
+                the...............................................................................................</p>
+            <p>The ownership of the vehicle has been trasferred to the name of............................... with
+                effect
+                from ..................... (date)</p>
+            <p class="bottom_right_26">Registering Authority (Office Seal)
+            </p>
+            <p>To</p>
+            .............................................<br />
+            .............................................<br />
+            ............................................
+            <p>(The transferor)</p>
+            <p>By registered post or under proper acknowledgement Strike out whichever is inapplicable.</p>
+        </div>
+        <hr />
+        <div>
+            <p>C.C.</p>
+            <p>I......................................... (Transferee)</p>
+            <p>(Copy to the Registering Authority in shose juridiction the transfer resides)</p>
+            <p>Note: To be sent to the Registering Authority by Regd.Post Acknowledgement Due.</p>
+            <h3 class="header_26">Office Endorsement</h3>
+            <p>No...........................Dated....................Office of
+                the...............................................................................................</p>
+            <p>The ownership of the vehicle has been trasferred to the name of............................... with
+                effect
+                from ..................... (date)</p>
+            <p class="bottom_right_26">Registering Authority (Office Seal)
+            </p>
+            <p>To</p>
+            .............................................<br />
+            .............................................<br />
+            ............................................
+            <p>(The transferor)</p>
+            <p>By registered post or under proper acknowledgement Strike out whichever is inapplicable.</p>
+        </div>
+    </div>
+    <div class="container_27">
+        <div>
+            <h2 class="header_27">FORM -34</h2>
+            <h3 class="header_27">Application for making an entry of an Agreemnet of Hypothecation subsequent of
+                registration.</h3>
+            <p>(To be made in duplicate and the duplicate copy with the endorsement of the Registering Authority to be
+                retured to the
+                financier simultaneously on making the entry in the Certificate of registration)</p>
+            <p>To,</p>
+            <p>The Registering Authority,</p>
+            ...........................<br />
+            ...........................
+            <p>The motor vehicle bearing registration number is the subject of an agreement of
+                hypothecation between the registered owner / person to be registered as owner
+                and....................................
+                .......................................................................................................................................................(Fill
+                in the name and
+                address of the financier)
+            </p>
+            <p>We request that an entry of the agreement to be made in the Certificate of registration and the relevant
+                records in your
+                Office.</p>
+
+            <p>The Certificate of registration together with the fee is enclosed.</p>
+            <div class="bottom_27">
+                <p>Date.....................</p>
+                <div class="user_photo_27" style="height: 3rem"></div>
+                <p>Signature of the Registered Owner
+                </p>
+            </div>
+            <div class="bottom_right_27">
+                <p>Signature of the Financier</p>
+                <p>For, “MANGLAM BALAJEE FINANCE LIMITED”
+                    Authorised Signatory</p>
+            </div>
+        </div>
+        <hr />
+        <div>
+            <h2 class="header_27">FORM -34</h2>
+            <h3 class="header_27">Application for making an entry of an Agreemnet of Hypothecation subsequent of
+                registration.</h3>
+            <p>(To be made in duplicate and the duplicate copy with the endorsement of the Registering Authority to be
+                retured to the
+                financier simultaneously on making the entry in the Certificate of registration)</p>
+            <p>To,</p>
+            <p>The Registering Authority,</p>
+            ...........................<br />
+            ...........................
+            <p>The motor vehicle bearing registration number is the subject of an agreement of
+                hypothecation between the registered owner / person to be registered as owner
+                and....................................
+                .......................................................................................................................................................(Fill
+                in the name and
+                address of the financier)
+            </p>
+            <p>We request that an entry of the agreement to be made in the Certificate of registration and the relevant
+                records in your
+                Office.</p>
+
+            <p>The Certificate of registration together with the fee is enclosed.</p>
+            <div class="bottom_27">
+                <p>Date.....................</p>
+                <div class="user_photo_27" style="height: 3rem"></div>
+                <p>Signature of the Registered Owner
+                </p>
+            </div>
+            <div class="bottom_right_27">
+                <p>Signature of the Financier</p>
+                <p>For, “MANGLAM BALAJEE FINANCE LIMITED”
+                    Authorised Signatory</p>
+            </div>
+        </div>
+    </div>
+    <div class="container_28">
+        <div>
+            <p class="header_28">Strike out whichever is inapplicable</p>
+            <h3 class="header_28">OFFICE ENDORESEMENT</h3>
+            <p>Number ...................... Dated ............................ office of the
+                ..................................................................................
+                The entry of the agreement of hypothecation on as requested above is recarded this office Registration
+                record in
+                form 24
+                and Certificate of Registration</p>
+
+            <p>On .........................</p>
+            <p>Date ..................</p>
+            <p class="bottom_right_28">Signature of Registering Authority</p>
+            <p>To,</p>
+        </div>
+        <div class="bottom_div_28">
+            <p class="header_28">Strike out whichever is inapplicable</p>
+            <h3 class="header_28">OFFICE ENDORESEMENT</h3>
+            <p>Number ...................... Dated ............................ office of the
+                ..................................................................................
+                The entry of the agreement of hypothecation on as requested above is recarded this office Registration
+                record in
+                form 24
+                and Certificate of Registration</p>
+
+            <p>On .........................</p>
+            <p>Date ..................</p>
+            <p class="bottom_right_28">Signature of Registering Authority</p>
+            <p>To,</p>
+        </div>
+    </div>
+    <div class="container_29">
+        <div>
+            <p>H.P.TER</p>
+            <p class="bottom_right_29">TR.NO.</p>
+            <h2 class="header_29">FORM-35</h2>
+            <h3 class="header_29">[(See Rule 61(1)]</h3>
+            <h4 class="header_29">Notice of Temination of an Agreement of Hypothecation</h4>
+            <p>(To be made in duplicate and the duplicate copy with the endorsement of the registering authority to be
+                returned to the
+                fnancer simultenously on making the entry in the certificate of registration)</p>
+            <p>To,</p>
+            <p class="bottom_right_29">Date............................</p>
+            <p>The Registering Authority</p>
+            __________________________<br />
+            __________________________
+            <p>We hereby declare that the agreement of hypothecation entered into between us has been terminated.We,
+                there
+                fore,
+                request that the note endorsed in the Certificate of Registration of Vehicle No in respect of the said
+                Agreement
+                bertween us be cancelled
+                The Certificate of Registration together with the fee is enclosed.</p>
+            <div class="bottom_29">
+                <p> Date __________________</p>
+                <p>Signature of Registered</p>
+            </div>
+
+            <div class="bottom_29">
+                <p>Strike out whichever is inapplicable.</p>
+                <div class="user_photo_29" style="height: 3rem"></div>
+                <p>Signature of the Financier Owner
+                </p>
+            </div>
+            <p class="bottom_right_29">Signature of the Financier</p>
+            <p>Note: This N.O.C.valikd upto 4 months from the date of issue</p>
+            <div class="bottom_right_29">
+                <p>For, “MANGLAM BALAJEE FINANCE LIMITED”</p>
+                <p> Authorised Signatory</p>
+            </div>
+        </div>
+        <hr />
+        <div>
+            <p>H.P.TER</p>
+            <p class="bottom_right_29">TR.NO.</p>
+            <h2 class="header_29">FORM-35</h2>
+            <h3 class="header_29">[(See Rule 61(1)]</h3>
+            <h4 class="header_29">Notice of Temination of an Agreement of Hypothecation</h4>
+            <p>(To be made in duplicate and the duplicate copy with the endorsement of the registering authority to be
+                returned to the
+                fnancer simultenously on making the entry in the certificate of registration)</p>
+            <p>To,</p>
+            <p class="bottom_right_29">Date............................</p>
+            <p>The Registering Authority</p>
+            __________________________<br />
+            __________________________
+            <p>We hereby declare that the agreement of hypothecation entered into between us has been terminated.We,
+                there
+                fore,
+                request that the note endorsed in the Certificate of Registration of Vehicle No in respect of the said
+                Agreement
+                bertween us be cancelled
+                The Certificate of Registration together with the fee is enclosed.</p>
+            <div class="bottom_29">
+                <p> Date __________________</p>
+                <p>Signature of Registered</p>
+            </div>
+
+            <div class="bottom_29">
+                <p>Strike out whichever is inapplicable.</p>
+                <div class="user_photo_29" style="height: 3rem"></div>
+                <p>Signature of the Financier Owner
+                </p>
+            </div>
+            <p class="bottom_right_29">Signature of the Financier</p>
+            <p>Note: This N.O.C.valikd upto 4 months from the date of issue</p>
+            <div class="bottom_right_29">
+                <p>For, “MANGLAM BALAJEE FINANCE LIMITED”</p>
+                <p> Authorised Signatory</p>
+            </div>
+        </div>
+    </div>
+    <div class="container_30">
+        <div>
+            <h2 class="header_30">OFFICE ENDORSEMENT</h2>
+            <p>Number____________________ Dated_______________________ office of the__________________</p>
+            <p>The Cancellation of the entry of an agreement as requested above is recorded in this office registration
+                record in
+                form
+                24 and Registration Certification on _________________________ (date)
+            </p>
+            <p>Date...................................
+
+            </p>
+            <p class="bottom_right_30">......................................
+                Signature of the Registering Authority</p>
+            <p>To</p>
+            ................................................<br />
+            ...............................................
+            <p>(Name & Address of the Financer)
+            </p>
+            <p>By registered post or delivered under proper acknowledgement
+            </p>
+        </div>
+        <div class="bottom_30">
+            <h2 class="header_30">OFFICE ENDORSEMENT</h2>
+            <p>Number____________________ Dated_______________________ office of the__________________</p>
+            <p>The Cancellation of the entry of an agreement as requested above is recorded in this office registration
+                record in
+                form
+                24 and Registration Certification on _________________________ (date)
+            </p>
+            <p>Date...................................
+
+            </p>
+            <p class="bottom_right_30">......................................
+                Signature of the Registering Authority</p>
+            <p>To</p>
+            ................................................<br />
+            ...............................................
+            <p>(Name & Address of the Financer)
+            </p>
+            <p>By registered post or delivered under proper acknowledgement
+            </p>
+        </div>
+    </div>
+    <div class="container_31">
+        <div>
+            <h2 class="header_31">FORM 36</h2>
+            <h3 class="header_31">[(See rule 61 (2)]</h3>
+            <h3 class="header_31">APPLICATION FOR ISSUE OF A FRESH CERTIFICATE OF</h3>
+            <h3 class="header_31">REGISTRATION IN THE NAME OF THE FINANCIER</h3>
+            <p>To,</p>
+            <p>The Registering Authority</p>
+            .........................................<br />
+            .........................................
+            <p>Dear Sirs,</p>
+            <p>I /
+                We....................................................................................................................................................
+            </p>
+            <p>(Financier) hav etaken, possession of Motor Vehicle
+                No..............................................................................................</p>
+            <p>Make
+                .....................................................Model owing to the default of the</p>
+            <p>Registered
+                Owner.................................................................................................................................................
+            </p>
+            <p class="header_31">(Name)</p>
+            ...........................................................................................................................................................<br />
+            ............................................................................................................................................................
+            <p>(Full Address)</p>
+            <p>Under the provisions of the agreement of Hire-Purchase / Lease / Hypothecation:</p>
+            <p>(1) The Certificate
+                of registration of the said vehicle is surrendered herewith.</p>
+            <p>(2) The registered owner has refused to deliver the
+                certificate of registration to me / us</p>
+            <p>(3) The regstered owner s obscodiing.</p>
+            <p>I / We request you to cancel the
+                certificate and issue a fresh certificate of registration in my / our name.</p>
+            <p>I / We enclose a fee of
+                Rs..........................................................................................................................................
+            </p>
+            <p>Your’s faithfully</p>
+            <p>Date: ................................................</p>
+            <p class="bottom_right_31">Speciment Signature of the Financier:</p>
+            .........................................................<br />
+            .........................................................
+        </div>
+        <div>
+            <h2 class="header_31">FORM OF DECLARATION</h2>
+            <h3 class="header_31">FORM 60 (See third provise to rule 114B)</h3>
+            <p>Form of declaration to be filed by a person who does not have either a permanent account number or
+                central Index Register</p>
+            <p>Numer and who makes
+                payment in cash in respect of transaction specified in clauses (a) to (h) of rule 114 B</p>
+            <p>1. Full Name and address of
+                the
+                declarant.......................................................................................................
+                .............................................................................................................................................................
+            </p>
+            <p>2. Particulars of transaction:</p>
+            <p>3. Amount of the transaction:</p>
+            <p>
+                4. Are you assessed to tax? Yes / No.
+            </p>
+            <p>5. If yes
+                <br />
+            <p>(i)
+                Details of ward / Circle / Range where the last return of income was filed?</p>
+            </p>
+            <p>(ii) Reasons for not having permanent
+                account number / General Index Register Number ?</p>
+            <p>6. Details of the document being produced in support of address in
+                column (1)</p>
+            ...............................................................................................................................................................
+            <h3 class="header_31">Verfication</h3>
+            <p>I do hereby declare that what is stated above is true to the best of knowledge and belief. Verified
+                today,
+                the.....................................day of...........................................</p>
+            <p>Date:..........................................</p>
+            <p>Place :.........................................</p>
+            <p>Instructions: Documents
+                which can be produced in support of the address are :-<br />
+            <p>(a) Ration Card</p>
+            <p>(b) Passport</p>
+            <p>(c) Driving Licence</p>
+            <p>(d) Identify Card issued by any inatitution</p>
+            <p>(e) Copy of the electircity bill or telephone bill showing Residential address.</p>
+            <p>(f) Any document of comunication issued by any authority of Central Government. State Government or local
+                bodies showing residential address.</p>
+            <p> (g) Any other documentary evidence in support of his address given in the declaration.</p>
+            </p>
+
+            <div class="user_photo_31" style="height: 3rem"></div>
+            <p class="bottom_right_31"> SIGNATURE OF DECLARANT</p>
+        </div>
+    </div>
+    <div class="container_32">
+        <div>
+            <h2 class="header_32"> FORM OF DECLARATION</h2>
+            <h3 class="header_32"> FORM NO.-61</h3>
+            <p class="header_32">Form of declaration to be filed by a person who agricultural Income and is not in</p>
+            <p class="header_32">receipt of any other Income chargeable to Income - tax in respect of transaction</p>
+            <p class="header_32"> Specified in clauses (a) to (h) rule 114B</p>
+            <p>01. Full name and address of the declarant
+                ...............................................................................
+                ...............................................................................................................................................
+                ...............................................................................................................................................
+            </p>
+            <p>02. Particulars of transaction
+                .....................................................................................................
+            </p>
+            <p>03. Details of the document being produced in support of address in column (1) Yes /No.
+                I hereby declare that my sourceof income is from agriculture and I an not required to pay Income - tax
+                on my other
+                income if any.</p>
+            <p>Date :</p>
+            <p>Place :</p>
+            <p class="header_32">Verification</p>
+            <p>I do hereby declare that what is stated above is true to the best of my
+                knowledge and belief.</p>
+            <p>Verified today. the .....................................day of .......................</p>
+            <p>Date :.....................</p>
+            <p>Place :.....................</p>
+
+            <p>Instruction : Cocuments which can be produced in support of the address are:<br />
+            <p>(a) Ration Card</p>
+            <p>(b) Passport</p>
+            <p>(c) Driving Licence</p>
+            <p>(d) Identify Card issued by any inatitution.</p>
+            <p>(e) Copy of the electricity bill or telephone bill showing residential address.</p>
+            <p>(f) Any document or communication issued by any authority of Central Goverment.</p>
+            <p>(g) Any other documentary evidence in support of his address given in the declaration.</p>
+            </p>
+            <h4 class="header_32">ACTION POINT</h4>
+            <p>01. This Form must be filled up by persons having only agricultural income and no other income which is
+                chargeabel
+                to
+                income - tax, while entering into any of the transations mentioned in rule 114B.</p>
+            <p>02. The declaration in this Form must be made be each occasion on which any of the specified transactions
+                are
+                entered
+                into, and handed over to the persons concerned, as specified in rule 114 C (2)</p>
+            <p>03. The persons mentioned in rule 114(2) should forward the declarations to the concerned Director of
+                Income - tax (
+                Investigation) within the time specified in rule 114D(2)</p>
+        </div>
+    </div>
+    <div class="container_33">
+        <div>
+            <h2 class="header_33">Finance Commission</h2>
+            <p>Received With thanks from “MANGLAMBALAJEE FINANCE LIMITED” Plot No. 6, Block-C,</p>
+            <p>Dakshin Gangotri, Supela, Bhilai
+                (C.G.)-490023, a sum of Rs. 1500/- (On Words - One Thousand Five</p>
+            <p>Hunderd) in Cash against the promotion of Finance
+                of Vehicle in the Name of</p>
+            <p>.................................................................... S/o
+                ...........................................................</p>
+            <p>At. Post ............................................Distt (C.G.)
+                Receivers</p>
+            <p>Name __________</p>
+            <p>S/o __________</p>
+            <p>Address _________</p>
+        </div>
+
+        <div class="bottom_33">
+            <p>To,</p>
+            <p>The Inspector,</p>
+            <p>______________Police Station,</p>
+            <p> Re: R.C. No._________________</p>
+            <p>I/We hereby inform you that the registratio Certificate of Vehicle no.______________ has been lost</p>
+            <p>and request you to grant a NOC
+                for
+                abtaining a duplicate R.C.Book.</p>
+            <p>As the vehicle has been financed be “MANGLAMBALAJEE FINANCE LIMITED” I/We requested you</p>
+            <p>to hand over the NOC to
+                their
+                representative whose signature is appended below.</p>
+            <p>Thanking you.</p>
+            <p>Very Truely Your’s
+            </p>
+        </div>
+    </div>
+    <div class="container_34">
+        <div>
+            <h3>HYPOTHECATION’S RECEIPT OF VEHICLE</h3>
+            <p>I / We
+                .................................................................................................................................................
+            </p>
+            <p>hereby acknowledge having taken delivery of..............................................Motor
+                Vehicle.....................</p>
+            <p>W.B. Model.....................................................................................Engine No.
+                ......................................</p>
+            <p>Chassis No .....................................................................................Regd.No.
+                .........................................</p>
+            <p>from
+                Messrs.............................................................................................................................................
+            </p>
+            <p>in good order condition, complete with all tools and accessories, having hired the said Motor Vehicle
+                from[</p>
+            <p>Under hypothecation Agreement dated .................... and in accordance with the clause. Terms</p>
+            <p>& conditions contained therein.</p>
+            <p> (This receipt must accompany the Dealer’s bill, without which the bill will not be paid)
+            </p>
+            <div class="user_photo_34" style="height: 3rem"></div>
+            <p class="bottom_right_34">SIGNATURE OF BORROWER</p>
+        </div>
+        <div class="bottom_34">
+            <h3 class="header_34">DECLARATION FOR SIGNING IN VERNACULAR LANGUAGE</h3>
+            <p>............................................................................................................................................son
+                / daughter of</p>
+            <p>.......................................................................................................................................adult
+                and inhabitant of</p>
+            <p>...............................................................................................................................................residing
+                at</p>
+            <p>........................................................................................................................do
+                hereby state and declare on</p>
+            <p>solemn affirmation as under:</p>
+            <p>I have read out and explained the contents of the loan documents and all other documents incidental to
+            </p>
+            <p>availing the loan from “MANGLAM BALAJEE FINANCE LIMITED” to Mr/Ms.
+                ...................................................</p>
+            <p>and he / she / they have understood the same and do hereby agree to abide by all the terms and conditons
+                of
+                the loan and
+                the clause of the same.</p>
+            <p>I declare that whatever I have stated here in above is true and correct to the best of my knowledge and
+                belief.</p>
+            <p>Solemnly affirmed at .....................................on this.......................day of 201</p>
+            <p>Signature of applicant / co-applicant
+                ..............................................................Signature of Deal Originator :</p>
+
+            <p>............................................................................................Date :
+                .......................................................</p>
+            <p>Name : ..................................................................</p>
+            <p>Relation to Applicant : ........................................</p>
+            <div class="user_photo_34" style="height: 3rem"></div>
+            <p class="bottom_right_34">SIGNATURE OF BORROWER</p>
+        </div>
+    </div>
+    <div class="container_35">
+        <div>
+            <h3 class="header_35">IRREVOCABLE POWER OF ATTORNEY</h3>
+            <p class="p_35">TO ALL WHOM THESE PRESENT SHALL COME I /
+                WE.....................................................................</p>
+            <p class="p_35">
+                ......................................................................................................................son
+                / daughter / wife / of residing of
+                ...............................................................................................................................................
+            </p>
+            <p class="p_35">(here in after called the “Borrower (s)” which expression shall include his / her heirs,
+                executors,
+                administrators,
+                legal representatives and assigns / his successors and assigns)</p>
+            <p class="p_35">OR</p>
+            <p class="p_35">
+                M/s.........................................................................................................a
+                firm
+                incorpo</p>
+            <p class="p_35">rated under the Companies Act 2013, and having its Registered Office at
+                ............................................................</p>
+            <p class="p_35">(here in after called the “Borrower(s)” which expression shall include its successors and
+                assigns)
+            </p>
+            <p class="p_35">OR</p>
+            <p class="p_35">M/s a partnership firm having its principal place of business at
+                ................................................................................................................................................
+            </p>
+            <p class="p_35">and constituted by and between
+                Mr./Mrs..................................................................................................and
+            </p>
+            <p class="p_35">Mr/Mrs..........................................................................and Mr. /
+                Mrs.........................................................</p>
+            <p class="p_35">here in after called the borrower (s) which expression shall include the partner of the
+                partners
+                for the
+                time
+                being</p>
+            <p class="p_35">of
+                the said firm and the survivor or survivors of them and their heirs, executors, administrators and
+                assigns / of
+            </p>
+            <p class="p_35">such survivor(s)</p>
+            <p class="p_35">WHEREAS a registered corporate having its registerd office at Raipur Road, Baloda Bazar,
+                Distt: Balodabazar-Bhatapara 493332 (hereinafter called the “MANGLAM BALAJEE FINANCE LIMITED” Plot No. 6
+                , Block-C,
+                Dakshin Gangotri, Supela, Bhilai (C.G.) 490023 Has granted credit facilities for
+                Rs......................(Rupees.......................to me / us.) And</p>
+            <p class="p_35">Whereas the Borrower has executed a Loan cum Hypothecation Agreement dated with and in
+                favour
+                of “MANGLAM BALAJEE FINANCE LIMITED” Tilip 1st Floor, Plot No. 6-7, Block-C, Dakshin Gangotri, Supela,
+                Bhilai
+                (C.G.)
+                490023</p>
+            <p class="p_35">And whereas an Irrevocble Power of Attorney is to be executd in favour of the “MANGLAM
+                BALAJEE
+                FINANCE
+                LIMITED”
+                to
+                do
+                the following acts for and on behalf of the Borrower (s).</p>
+
+            <p class="p_35">NOW KNOW YE ALL AND THESE PRESENTS WITNESS THAT I/WE DO irrevocable nominate/constitute upon
+                the
+                “MANGLAM
+                BALAJEE
+                FINANCE LIMITED” acting through and of its officers as my/ our true and lawful attorney for me/ our
+                behalf and
+                at
+                my/
+                our cost and risk to execute and perform all or any of the following acts, deeds, matters and thing that
+                in to
+                say:-
+            </p>
+            <div class="user_photo_35" style="height: 3rem"></div>
+            <p class="bottom_right_35">SIGNATURE OF REGISTERED OWNER</p>
+        </div>
+    </div>
+    <div class="container_36">
+        <div>
+            <ol>
+                <li>To take inspection directly or to engage any Advocate.Chartered Accountant or registerd trade
+                    practitioner fortaking
+                    inspection of my / our income Tax retrun/s and Assessment proceedings, Appeal proceedings
+                    etc.relating to the current
+                    and previous Assessment years</li>
+                <li>This authority is being given to shriram to enable them to verify the veracity of various
+                    representations made by the
+                    undersigned for obtaining credit facilities from shriram.</li>
+                <li> This authority shall be binding upon the undersigned and its legal successors prior and post to the
+                    grant of the
+                    credit facilities and shall be irrevocable during the tenure of the said credit facilities.</li>
+                <li> To get requisite information from employer as may be expedient to ascertian material particulars.
+                </li>
+                <li>
+                    To appear before the office of the Regional Transport Office, Sales Tax Officer and other
+                    authorities through
+                    Advocates or any authorised person deemed necessary by “MANGLAM BALAJEE FINANCE LIMITED” to effect
+                    endorsement of
+                    hypothecation in Registration certificate and transfer the vehicle.</li>
+                <li>To take possession of the hypothecated vehicles in case of default as per the terms of the Loan cum
+                    Hypothecation
+                    agreement.</li>
+                <li>To take all necessary steps as fully and effectually as I / we could take to dispose of the motor
+                    vehicle and
+                    for
+                    this purpose to enter upon the premises, garage or godown where the motor vehicle shall be lying or
+                    kept, to
+                    take
+                    possession and recover and recieve the motor vehicle and if necessary to break open and place of
+                    storage,
+                    “MANGLAM BALAJEE FINANCE LIMITED” shall also be entitle to appoint any officer/s or and other person
+                    as the
+                    reciever of
+                    the motor vehicle with the power to sell the Public auction or private contract or otherwise dispose
+                    of the
+                    motor
+                    vehicle at our risk and cost with the further power to rescind or vary and such contract for sale
+                    withour being
+                    bound or
+                    answerable for any loss or diminution in value and without being liable for any loss occasioned by
+                    the exercise
+                    of such
+                    powers.</li>
+                <li>To transfer, sell or dispose of the said vehicle(s) and to sign and execute all contracts,
+                    declarations and
+                    instruments and may be necessary or expenditure for giving delivery thereof.</li>
+                <li>To appoint or engage any authorised representation for effecting any such transfer, sal or
+                    deposition or
+                    realisation
+                    as the case may be.</li>
+                <li>To give notice to the appropriate authority for the registration of the said vehicle (s) upon the
+                    sate
+                    thereof.</li>
+                <li>To recieve the consideration on the sale, transfer, disposition of the said vehicle and to give
+                    proper
+                    receipt and
+                    valid and effectual discharge of the same.</li>
+                <li>To take delivery and possession of the vehicle(s) as and when deemed necessary by “MANGLAM BALAJEE
+                    FINANCE
+                    LIMITED”.</li>
+                <li>And generally to do perform and execute all acts, deeds, matters and thing relating to or concerning
+                    or
+                    touching
+                    these presents as fully and effectually as if I / we personally and had done, performed or executed
+                    the same
+                    myself/
+                    ourselves.</li>
+                <li>And I/ we hereby agree to ratify and confirm all and whatsoever “MANGLAM BALAJEE FINANCE LIMITED”
+                    shall do or course to be done in or about the premises by virtue of these presents.</li>
+                <li>To sin, execute, carry out, deliver and complete all papers, correspomdence, vouchers, agreements,
+                    contracts, forms
+                    applications, portiones, transfers, receipts and all other deeds and assurances and documents for
+                    the due
+                    completion and
+                    performance of any of the transactions, which may now be subsisting in the ordinary course of
+                    business.</li>
+                <li>AND ALSO for the better and more effectually doing, effecting and performing several matters and
+                    things
+                    afore- said
+                    to appoint from time to time or generally such person or persons as the Attorneys may think fit as
+                    their
+                    substitue or
+                    substitutes to do execute and perform all or and such matters and things as aforesaid and any such
+                    substitue or
+                    substitutes as pleasure to remove and appoint another or others in his or their place and we hereby
+                    agree at all
+                    times
+                    to ratify and confirm whatsoever the attoneys or any such substitute or substitutes shall lawfully
+                    do or cause
+                    to be
+                    done in or about the premises.</li>
+            </ol>
+            <p>IN WITNESS whereof I / We here unto set my / our hand and seal at............... this</p>
+            <p>................................day of..............................chritstian
+                year...........................................</p>
+            <p>SIGNEDAND DELIVERED by the above named...................................................................
+            </p>
+            <p>In the presence of</p>
+            <div class="bottom_36">
+                <p>(Notary Seal and Stamp)</p>
+                <div class="user_photo_36" style="height: 3rem"></div>
+                <p>Signature of Registered Owner</p>
+            </div>
+        </div>
+    </div>
+    <div class="container_37">
+        <div>
+            <h2 class="header_37">MANGLAM BALAJEE FINANCE LIMITED</h2>
+            <h3 class="header_37">CIN: U65929CT2019PLC009596</h3>
+            <h3 class="header_37">REGD OFFICE: MANGLAM CHAMBERS, BLOCK-C, PLOT- 6, DAKSHIN GANGOTRI SUPELA BHILAI</h3>
+            <h3 class="header_37">DURG; CHHATTISGARH 490023 INDIA</h3>
+        </div>
+    </div>
+    <div class="container_38">
+        <div>
+            <h2 class="header_38">MANGLAM BALAJEE FINANCE LIMITED</h2>
+            <h3 class="header_38">CIN: U65929CT2019PLC009596</h3>
+            <h3 class="header_38">REGD OFFICE: MANGLAM CHAMBERS, BLOCK-C, PLOT- 6, DAKSHIN GANGOTRI SUPELA BHILAI</h3>
+            <h3 class="header_38">DURG; CHHATTISGARH 490023 INDIA</h3>
+        </div>
+    </div>
+    <div class="container_39">
+        <div>
+            <h2 class="header_39">SURRENDER LETTER</h2>
+            <h4>MANGLAM BALAJEE FINANCE LIMITED</h4>
+            <h4>CIN: U65929CT2019PLC009596</h4>
+            <h4>REGD OFFICE: MANGLAM CHAMBERS, BLOCK-C, PLOT- 6, DAKSHIN GANGOTRI SUPELA</h4>
+            <h4>BHILAI DURG; CHHATTISGARH 490023 INDIA</h4>
+            <h3>SUB:-SURRENDER OF VEHICLE</h3>
+            <p>Dear Sir,</p>
+            <div class="bottom_39">
+                <p>Proposal No./ file No.
+                    {{doformId}}
+                </p>
+                <p>Vehicle Make
+                    ..............................................................................................................................................
+                </p>
+                <p>Registration No.
+                    ..........................................................................................................................................
+                </p>
+                <p>Name of Hirer
+                    ..............................................................................................................................................
+                </p>
+                <p>Address
+                    ........................................................................................................................................................
+                    <br />
+                    ........................................................................................................................................................
+                </p>
+                <p>I..................................................................... S / O
+                    .....................................................................</p>
+
+
+                <p>do hereby surrender the vehicle
+                    make.....................................model.....................................................
+                </p>
+                <p>registration No.
+                    .........................................................................On....................................................
+                </p>
+                <p>at ..................to the representative of “MANGLAM BALAJEE FINANCE LIMITED”</p>
+                <p>Mr. .............................................................................</p>
+                <p>As I have defaulted in repayment of the finance amount as per terms & condtions of above mentioned
+                    agreement, I
+                    further
+                    undertake that I will not initiate any typed of court proceddings in the future relating to
+                    repossession of vehicle
+                    as
+                    myself has violated the terms & conditions repayment the company as per above mentioned agreement.I
+                    further
+                    undertake
+                    that I shall repay for any loss / damage incurred by firm after selling diopose of my surrender
+                    vehicle in market.</p>
+                <p>Date : ..............................</p>
+                <p> Time : ..............................</p>
+                <p>Place : ...............................</p>
+                <div class="bottom_39">
+                    <p class="bottom_right_39">Signature of the Hirer ........................................</p>
+                    <p class="bottom_right_39">Name .................................................................
+                    </p>
+                    <p class="bottom_right_39">Address
+                        .............................................................<br />
+                        ............................................................
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container_40">
+        <div>
+            <h4>To,</h4>
+            <h3>MANGLAM BALAJEE FINANCE LIMITED</h3>
+            <h4>CIN: U65929CT2019PLC009596</h4>
+            <h4>REGD OFFICE: MANGLAM CHAMBERS, BLOCK-C, </h4>
+            <h4>PLOT- 6, DAKSHIN GANGOTRI SUPELA BHILAI</h4>
+            <h4>DURG; CHHATTISGARH 490023 INDIA</h4>
+            <div class="bottom_40">
+                <h3 style="text-decoration: underline;" class="header_40">SUB:-CONFIRMATION OF BALANCE IN YOUR ACCOUNT
+                </h3>
+                <p>Sir,</p>
+                <p>Wtih reference to the above I / We would request you to confirm that the balance of Rupees
+                    ..............................due to me on according to my book is correct.
+                    I request you to accept cheque amount cheque no.</p>
+                <p>....................................dated in consideration of full settlement and all claim
+                    for discharge my liability towards the loan of which includes interest. Overdue charges, bounce
+                    charges etc.
+                </p>
+                <div class="middle_40">
+                    <p>Place: CHHATTISGARH</p>
+                    <p>Borrower: {{customer_name}}</p>
+                </div>
+                <p>Date: {{date}}</p>
+                <p class="bottom_right_40">Co-Borrower: {{co_borrower_name}}</p>
+            </div>
+            <div class="bottom_40">
+                <p class="bottom_right_40">Dated: {{date}}</p>
+
+                <p>To,
+                    .........................................................<br />
+                    .........................................................<br />
+                    .........................................................
+                </p>
+                <h3 style="text-decoration: underline;" class="header_40">SUB:INSURANCE CLAIM AUTHORISATION LETTER</h3>
+                <p>Sir,
+                </p>
+                <p>I / We herebyauthorise to
+                    <span class="span_40">M/s “MANGLAM BALAJEE FINANCE LIMITED”</span> to receive the insurance
+                    claim for my vehicle bearing registration number on my behalf. I have cleared all
+                    the bills for repair of the said vehicle and bills are attached with you.
+                </p>
+                <p>Thanking you.
+                </p>
+                <p class="bottom_right_40">Yours faithfully.</p>
+                <div class="bottom_40">
+                    <p class="bottom_right_40">Name {{customer_name}}</p>
+                    <p class="bottom_right_40">Address..................................................<br />
+                        ............................................................<br />
+                        ............................................................
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container_41">
+        <div>
+            <h3 class="header_41">RECEIPT OF VEHICLE</h3>
+            <p>I/ We the undersigned do hereby acknowledge having received
+                from {{customer_name}}</p>
+            <p>one vehicle financed by M/s “MANGLAM BALAJEE FINANCE LIMITED” as per particulars given below in</p>
+            <p>good order and condition
+                and to my/our satisfaction complete with all tools and accessories, on hire/lease</p>
+            <p>under the terms of hypothecation
+                agreement dated {{date}}entered into by me/us.</p>
+            <div class="bottom_41">
+                <div class="middle_41">
+                    <p>Makers Name {{vehicle_company_name}}</p>
+                    <p class="bottom_right_41"> Registration No......................................</p>
+                </div>
+                <div class="middle_41">
+                    <p>Year of Manufacture...........................</p>
+                    <p class="bottom_right_41">Engine No {{engine_no}}</p>
+                </div>
+                <div class="middle_41">
+                    <p>Chassis No. {{chassis_no}}</p>
+                    <p class="bottom_right_41">Type of Body Metal</p>
+                </div>
+            </div>
+            <p>I/We will make no claim/s for any defect as the vehicle as I /We have place the delivery after
+                ascertaining its
+                fitness.</p>
+            <p>Place CHHATTISGARH</p>
+            <div class="middle_41">
+                <p>Date{{date}}</p>
+                <p class="bottom_right_41">
+                    <img src={{bufferCustomerImage}}></img>
+                    <br />Customer’s
+                    Signature
+                </p>
+            </div>
+        </div>
+        <hr />
+        <div class="bottom_div_41">
+            <p>From</p>
+            <p>1.</p>
+            <p>2.</p>
+            <h4>“MANGLAM BALAJEEFINANCE LIMITED”</h4>
+            <h4>CIN: U65929CT2019PLC009596</h4>
+            <h4>REGD OFFICE: MANGLAM BALAJEE FINANCE LIMITED , BLOCK-C,</h4>
+            <h4>PLOT- 6, DAKSHIN GANGOTRI SUPELA BHILAI</h4>
+            <h4>DURG; CHHATTISGARH 490023 INDIA</h4>
+            <p>Branch:</p>
+            <p>Dear Sir/s'</p>
+            <h3 class="header_41">Ref.:-Hypothecation Agrrement by me/us this day</h3>
+            <h3 class="header_41">against Vehicle No {{vehicle_number}}</h3>
+            <p>I/we hereby confirm that the Hypothecation agreement and all other related papers have been read out,
+                translated in my
+                mother tongue / local language and explained to me and that I / we have signed the Hypothecation
+                Agreement and all
+                connected papers after fully understanding the matter contained therein and after being fully aware of
+                the implications
+                of signing the said Hypothecation Agreement and connected papers.</p>
+            <p>I/ We certify that all the terms of this loan agreement have been explained to us in our mother tongue
+                and
+                we have signed
+                this loan agreement only after fully understanding and understanding all the obligations under this
+                agreement. Sign the
+                agreement and relevant papers.</p>
+            <p class="bottom_para_41">Your’s faithfully</p>
+        </div>
+    </div>
+    <div class="container_42">
+        <div>
+            <h3 class="h3_42">Reference No(1) Name {{reference_1_name}} 
+            <h3 class="h3_42">Village {{reference_1_village}} Post
+                {{reference_1_postal_code}} Tehsil {{reference_1_division}}</h3>
+            <div class="middle_42">
+                <h3>District {{reference_1_district}}</h3>
+                <h3>Mobile No.{{reference_1_residence_mobile}}</h3>
+                <div class="user_photo_42" style="height: 2.5rem"></div>
+            </div>
+        </div>
+        <hr color="black" />
+        <div>
+            <h3 class="h3_42">Reference No(2) Name {{reference_2_name}}</h3>
+            <h3 class="h3_42">Village {{reference_2_village}} Post
+                {{reference_2_postal_code}} Tehsil {{reference_2_division}} </h3>
+                <div class="middle_42">
+                    <h3>District {{reference_2_district}}</h3>
+                    <h3>Mobile No.{{reference_2_residence_mobile}}</h3>
+                    <div class="user_photo_42" style="height: 2.5rem"></div>
+                </div>
+        
+        </div>
+        <hr color="black" />
+        <div class="h3_42">
+            <div class="middle_42">
+                <h3>On Road {{final_amount}}</h3>
+                <div class="box_42" style="height: 2.5rem"></div>
+                <h3>D.P</h3>
+                <div class="box_42" style="height: 2.5rem"></div>
+                <h3>L.A</h3>
+                <div class="box_42" style="height: 2.5rem"></div>
+            </div>
+            <div class="h3_42">
+                <div class="middle_42">
+                    <h3>EMI {{emi}}</h3>
+                    <div class="box__div_42" style="height: 2.5rem"></div>
+                    <h3>Total Interest charge {{interest_amount}}</h3>
+                    <div class="box__div_42" style="height: 2.5rem"></div>
+                    <h3>Rate of Interest {{interest}} </h3>
+                    <div class="box__div_42" style="height: 2.5rem"></div>
+                </div>
+            </div>
+            <div class="h3_42">
+                <div class="middle_42">
+                    <h3>Due Date</h3>
+                    <div class="box__div_42" style="height: 2.5rem"></div>
+                    <h3>LTV</h3>
+                    <div class="box__div_42" style="height: 2.5rem"></div>
+                </div>
+            </div>
+            <h3 class="h3_42">D.S.E. Name
+                .......................................................................................................................
+            </h3>
+            <h3 class="h3_42">Mob.No. ................................................... Signature
+                ..........................................................</h3>
+        </div>
+        <hr color="black" />
+        <div>
+            <h3 class="header_42">OFFICE WORK</h3>
+            <h3 class="h3_42">Agreement receipt date {{date}} Recipient Name {{customer_name}} Sign
+                ..........................</h3>
+            <h3 class="h3_42">Ledger entry name {{customer_name}} sign
+                ........................................................................</h3>
+            <h3 class="h3_42">D.O. Name of Charge : {{dealership}} sign.
+                ............................................................</h3>
+            <h3 class="h3_42">The date the agreement was cancelled .............................. reason
+                ...............................................</h3>
+            <h3 class="h3_42">Dealer payment sending date
+                ................................................................................................</h3>
+            <h3 class="h3_42">Team leader Name .............................................................. sign
+                .......................................</h3>
+        </div>
+    </div>
+</body>
+
+</html>
