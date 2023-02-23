@@ -10,8 +10,8 @@ import customerRouter from "./router/customer_router.js";
 import notificationRouter from "./router/notification_router.js";
 import attendanceRouter from "./router/attendance_router.js";
 import showroomRouter from "./router/showroom_router.js";
-import doRouter from "./router/do_router.js";
-import loanagreementRouter from "./router/loan_agreement_router.js";
+// import doRouter from "./router/do_router.js";
+// import loanagreementRouter from "./router/loan_agreement_router.js";
 import officestaffRouter from "./router/office_staff_router.js";
 import recoverystaffRouter from "./router/recovery_staff_router.js";
 
@@ -52,10 +52,10 @@ app.use("/", attendanceRouter);
 app.use("/", showroomRouter);
 
 // ! do router
-app.use("/doform", doRouter);
+// app.use("/doform", doRouter);
 
 //! loanagreement router
-app.use("/loanagreement", loanagreementRouter);
+// app.use("/loanagreement", loanagreementRouter);
 
 //! officestaff router
 app.use("/officestaff", officestaffRouter);
